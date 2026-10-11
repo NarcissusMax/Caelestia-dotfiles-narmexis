@@ -1,0 +1,43 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": false
+        }
+    },
+    "bar": {
+        "clock": {
+            "background": false,
+            "showDate": true,
+            "showIcon": false
+        },
+        "persistent": false,
+        "showOnHover": true
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "dolphin"
+            ],
+            "terminal": [
+                "kitty"
+            ]
+        },
+        "idle": {
+            "lockBeforeSleep": false,
+            "timeouts": [
+            ]
+        }
+    },
+    "launcher": {
+        "favouriteApps": [
+            "brave-browser-nightly",
+            "org.kde.dolphin"
+        ]
+    },
+    "services": {
+        "brightnessIncrement": 0.11,
+        "maxVolume": 2,
+        "smartScheme": true,
+        "useTwelveHourClock": false
+    }
+}

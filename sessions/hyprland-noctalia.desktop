@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Hyprland — Noctalia
+Comment=Hyprland session with Noctalia Shell
+Exec=uwsm start -e -D Hyprland /usr/bin/start-hyprland -- -- --config /home/narmexis/.config/hypr/hyprland-noctalia.lua
+TryExec=/usr/bin/start-hyprland
+Type=Application
+DesktopNames=Hyprland

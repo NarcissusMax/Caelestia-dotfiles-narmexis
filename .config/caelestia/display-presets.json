@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "presets": [
+    {
+      "brightness": 1.0059259064857378,
+      "contrast": 1,
+      "gamma": 1.0110904993959218,
+      "name": "Contra",
+      "saturation": 1.0072903774752475,
+      "temperature": 6500
+    },
+    {
+      "brightness": 1.1635410619194426,
+      "contrast": 1,
+      "gamma": 1.0296831833560218,
+      "name": "A",
+      "saturation": 1.0247463346062218,
+      "temperature": 6500
+    },
+    {
+      "brightness": 1.1635410619194426,
+      "contrast": 1,
+      "gamma": 1.0296831833560218,
+      "name": "Balanced",
+      "saturation": 1.0247463346062218,
+      "temperature": 6500
+    }
+  ]
+}

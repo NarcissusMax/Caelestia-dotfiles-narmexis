@@ -1,0 +1,6 @@
+*.log
+*.sqlite
+*.db
+.cache/
+.local/
+*.bak

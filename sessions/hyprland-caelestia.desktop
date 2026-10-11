@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Hyprland — Caelestia
+Comment=Existing Hyprland session with Caelestia Shell
+Exec=uwsm start -e -D Hyprland hyprland.desktop
+TryExec=uwsm
+Type=Application
+DesktopNames=Hyprland
