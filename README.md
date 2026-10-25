@@ -1,4 +1,20 @@
-# Caelestia dotfiles snapshot
+# Desktop dotfiles: Serpantinum and Hyprland
+
+The current setup is saved in **[serpantinum/](serpantinum/)**, updated on
+25 October 2026. It includes the installed Serpantinum 2.3.0 source, Hyprland Lua
+configuration, theme colors, audio preset and login-session launcher.
+
+**Super + M** opens the integrated Sound / Display panel. Display provides live
+GPU color adjustments, per-monitor profiles, custom presets, ±5% buttons and an
+individual reset button beneath every slider. Existing music, playback-speed,
+equalizer and audio controls are included.
+
+See [restore instructions and dependencies](serpantinum/README.md) and the
+[display implementation notes](serpantinum/home/.local/share/serpantinum/src/quickshell/media/DISPLAY.md).
+
+The older Caelestia snapshot below is retained for reference.
+
+## Earlier Caelestia snapshot
 
 Snapshot of my Caelestia and Hyprland configuration before removing the Hyprland sessions.
 

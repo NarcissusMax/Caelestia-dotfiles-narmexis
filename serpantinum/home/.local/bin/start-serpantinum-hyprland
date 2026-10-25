@@ -1,0 +1,4 @@
+#!/bin/sh
+export PATH="$HOME/.local/bin:$PATH"
+export HYPR_DESKTOP_SHELL=serpantinum
+exec /usr/bin/start-hyprland -- --config "$HOME/.config/hypr/hyprland.lua"

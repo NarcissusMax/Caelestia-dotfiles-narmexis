@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Hyprland (Serpantinum)
+Comment=Serpantinum desktop shell with your custom controls
+Exec=uwsm start -e -D Hyprland /home/narmexis/.local/bin/start-serpantinum-hyprland
+TryExec=/usr/bin/uwsm
+Type=Application

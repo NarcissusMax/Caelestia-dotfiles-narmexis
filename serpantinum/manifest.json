@@ -1,0 +1,2814 @@
+{
+  "date": "2026-10-25",
+  "upstream": "ilyamiro/serpantinum",
+  "upstream_base": "e0c1d79",
+  "version": "2.3.0",
+  "files": {
+    "home/.config/environment.d/serpantinum-qt.conf": {
+      "bytes": 27,
+      "sha256": "08effefcffcc977f3ea65e1fd7d01607ec4f217d474bef80ec029c606dfc224d"
+    },
+    "home/.config/hypr/config/autostart.lua": {
+      "bytes": 258,
+      "sha256": "dab84c1d286a3b159f686201e5639743553da7468f3340ff067fd029c8e0d41a"
+    },
+    "home/.config/hypr/config/env.lua": {
+      "bytes": 363,
+      "sha256": "54536fe09a9e0adbf1a32e1d27eb2262e024ab8c90a7df10d684695aa7e37dfa"
+    },
+    "home/.config/hypr/config/keybinds.lua": {
+      "bytes": 4621,
+      "sha256": "f6648fa61063be8309ddc2a86959559268eebed92957d06ba95f522050ee1e54"
+    },
+    "home/.config/hypr/config/monitors.lua": {
+      "bytes": 89,
+      "sha256": "dcabaec7e816dbf37a076881242cf05b46ec5667661454fc2fa86267b3a4c3b6"
+    },
+    "home/.config/hypr/config/settings.lua": {
+      "bytes": 1772,
+      "sha256": "0154f16ba60d1b0536956cda62cb68c128178130a9d0ed65e84eb44a071e1556"
+    },
+    "home/.config/hypr/config/variables.lua": {
+      "bytes": 37,
+      "sha256": "6529fb2eb91b4c98b37fb54d68005df2d086390fdfadd732cf1fb422d6cf5163"
+    },
+    "home/.config/hypr/hyprland-gui.lua": {
+      "bytes": 747,
+      "sha256": "a8311241d7db64e8291c4ce840afb3952480bf0372e28e981a96485666974441"
+    },
+    "home/.config/hypr/hyprland.lua": {
+      "bytes": 212,
+      "sha256": "abb0abdc8fd71b272db8de80a321eed07bf27ecbff605ae40adc510e66320c6d"
+    },
+    "home/.config/qt6ct/colors/noctalia.conf": {
+      "bytes": 1098,
+      "sha256": "9e2ff8591ebf10cf13b0d332a9e1dfd80f111c2d196d79fdeb8c54f4fddf291b"
+    },
+    "home/.config/qt6ct/qt6ct.conf": {
+      "bytes": 154,
+      "sha256": "d743f9cde7ba317053711886c30859067e1364e3a41a406dc35ac54ba696e3d1"
+    },
+    "home/.config/serpantinum/display-profiles.json": {
+      "bytes": 619,
+      "sha256": "8ed1bb4efc8e01ef8adb6d05ebcda79162e69ba0ccf09e52d028d92dcba5b0d3"
+    },
+    "home/.config/serpantinum/settings.json": {
+      "bytes": 3868,
+      "sha256": "a4f47cc7f1e6ecf1d068ed53ebcce8af0657cb54beb9fa383b9f5e62ed7c87c1"
+    },
+    "home/.local/bin/serpantinum": {
+      "symlink": "../share/serpantinum/bin/serpantinum"
+    },
+    "home/.local/bin/serpantinumd": {
+      "symlink": "../share/serpantinum/bin/serpantinumd"
+    },
+    "home/.local/bin/start-serpantinum-hyprland": {
+      "bytes": 160,
+      "sha256": "811544947ce981f0580f86da573a8b1bbd8de7298a9baeed0e3d3e016743eb5d"
+    },
+    "home/.local/share/easyeffects/output/live_eq.json": {
+      "bytes": 21057,
+      "sha256": "68496c39013c79ab01bbc0738fc9f52a3af0cdfe339102b76bbb609d8a4a167b"
+    },
+    "home/.local/share/serpantinum/bin/serpantinum": {
+      "bytes": 22997,
+      "sha256": "fe0e528beb742020a1b2f0fb3b1412ce4f8b3a4f49ed2c714c32b21128d22090"
+    },
+    "home/.local/share/serpantinum/bin/serpantinumd": {
+      "bytes": 6897,
+      "sha256": "981493c25d3025225192d303bf4dcd8ad48ad12aa24fe5d9afe93029d91849f2"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/0xProtoNerdFont-Regular.ttf": {
+      "bytes": 2406112,
+      "sha256": "014921bcefcbc763151a86beca4a4a53b572494aad2c38787f20e58a8d5f350d"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/3270NerdFont-Regular.ttf": {
+      "bytes": 2637000,
+      "sha256": "78540c3880221f7cc34eac347c6c42e4135ecaf12dc69f2f2170f31e5fee13f1"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/AdwaitaMonoNerdFont-Regular.ttf": {
+      "bytes": 3943580,
+      "sha256": "bcd970a74682acfba181d5494083abf2a33cbb98d69e399681bdc2f3c21c34ef"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/AgaveNerdFont-Regular.ttf": {
+      "bytes": 2631424,
+      "sha256": "6111ca3d2797dd93b144baa17ae074731793620117ccc106c4ac2661eb6c59c9"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/AnonymiceProNerdFont-Regular.ttf": {
+      "bytes": 2511728,
+      "sha256": "6a8c8842c02a69555f09678cb1f0a92be0acb2ebe5bc67b7381b8eca95702a5f"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/ArimoNerdFont-Regular.ttf": {
+      "bytes": 2734668,
+      "sha256": "c8391ed0dbcc16d15e938ea56dc4c1984ebc96e865ebb3836af84293a7c79f66"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/AtkynsonMonoNerdFont-Regular.otf": {
+      "bytes": 2150500,
+      "sha256": "d915620850ca931110d8c1766a161c963377b7df5096cb13919eb3b6846289e0"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/AurulentSansMNerdFont-Regular.otf": {
+      "bytes": 2114832,
+      "sha256": "4d40b68181514a7013a0e3fa7e87feb4ee1c5108d2c9c72bf2a7ab5895a2b694"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/AurulentSansMNerdFontMono-Regular.otf": {
+      "bytes": 2186916,
+      "sha256": "da75261e2decf463a025e74bac647d65e05a33b269abb4e6978b1be769ecc6eb"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/BitcountPropSingle-Regular.ttf": {
+      "bytes": 331076,
+      "sha256": "2be05ab22044f652c0c576b4890375cfae19e9825aeff64a470715598ba16498"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/BitcountPropSingle_Roman-Bold.ttf": {
+      "bytes": 331104,
+      "sha256": "d5fd31d5ad530065392dad870a69b7890b7a7af88dc454316123a74d27bb7f56"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/BlexMonoNerdFont-Bold.ttf": {
+      "bytes": 2352748,
+      "sha256": "0d40cee43321be3915194991edf23810931f3532403b1c061913e61e9572b224"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/BlexMonoNerdFont-Light.ttf": {
+      "bytes": 2350504,
+      "sha256": "a591c43b85ebbc580f2591f6a842b62ab7218fbead06862cfa34d12d3b65da00"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/BlexMonoNerdFontMono-Regular.ttf": {
+      "bytes": 2353588,
+      "sha256": "f9892505b7cd6e9d29f9ba0924da73df023714adf6dbe6d8f920d47b8930fcef"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/ComicMono.ttf": {
+      "bytes": 18724,
+      "sha256": "3bc1425e922a16abf0ec767effe4d0268439b4c0dce98432e07d15f5dad57196"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/ComicShannsMonoNerdFont-Regular.otf": {
+      "bytes": 2291056,
+      "sha256": "8a49e1ecee6a2d2aa75d6e7ca6b8abce66d421f5e6726c884474a52154ef8343"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/CousineNerdFont-Regular.ttf": {
+      "bytes": 2690028,
+      "sha256": "c27984a30f1b2a745fdd8552797e5ffaca4ddf094f8204ac66acafd75538c01b"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/DaddyTimeMonoNerdFont-Regular.ttf": {
+      "bytes": 2483412,
+      "sha256": "cf044df51c3f79939361715ed4eb03077c776892b10426b239b8bf4108050362"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/DejaVuSansMNerdFont-Regular.ttf": {
+      "bytes": 2702740,
+      "sha256": "02beb8054a77f57e6c743837a853aeee32862ec778e6a36164a72c5dc9df399c"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/EduVICWANTHand-Regular.ttf": {
+      "bytes": 760604,
+      "sha256": "2c05d38ab5078830867235c3449f70ab7c5d85924f8ebdb30ce3cfd60fcc9060"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/FiraCode-Regular.ttf": {
+      "bytes": 188500,
+      "sha256": "5dc1651a1143c53169d4394dfc55585860d13c158cc0bcc2e56c23a1da5dd777"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/GohuFontuni14NerdFont-Regular.ttf": {
+      "bytes": 2482400,
+      "sha256": "ebd98e42b542172cf1bdb1ba972f3af5488797310d74175e1b1ee617129c03c1"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/GoogleSansFlex.ttf": {
+      "bytes": 3910784,
+      "sha256": "a9ac770798857d5e8ac593ced42b22e40a7c08cec98319f92b0eccc2783a77ba"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/HeavyDataNerdFont-Regular.ttf": {
+      "bytes": 2391776,
+      "sha256": "1c65089ddd54fa114614f5dda8d9aa6624b4f84e086a5d892422b86198e7a847"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/IBMPlexMono-Regular.ttf": {
+      "bytes": 133796,
+      "sha256": "ab08018ccd276b79fb2c636bb95b9c543598f9d50505fe92506fcb4dae7810cd"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/InconsolataGoNerdFont-Regular.ttf": {
+      "bytes": 2290876,
+      "sha256": "804b35cd8361cfe0492676909bd8ac0cf50ff6c74e940ffb01b5b694605d1d24"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/IosevkaNerdFont-Bold.ttf": {
+      "bytes": 13281980,
+      "sha256": "d13814ca9b4d51909ab151a47b2087915ceb91c244901b7d3497e27826ba090c"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/IosevkaNerdFont-Italic.ttf": {
+      "bytes": 13601384,
+      "sha256": "8d5607aa9eaacbd1ed9a86c52fb34025957de307b20a3e61bbfebb575584f86d"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/IosevkaNerdFont-Regular.ttf": {
+      "bytes": 13233516,
+      "sha256": "48dad582909322164f40892e4e27eaa497346ab046b450b5c23c754ac35b53d2"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/JetBrainsMono-Regular.ttf": {
+      "bytes": 273900,
+      "sha256": "a0bf60ef0f83c5ed4d7a75d45838548b1f6873372dfac88f71804491898d138f"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/JetBrainsMono-SemiBold.ttf": {
+      "bytes": 277092,
+      "sha256": "1b3bfa1ed5665a4ce3f9feb68d2d4e40e70bf8b4b7d9a3edd418f321b4e166a0"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/LektonNerdFont-Regular.ttf": {
+      "bytes": 2323360,
+      "sha256": "36d5bfeaaea3017d06f8fb99ddce5850581af7ff4d89dfd441f3feab4d6f51eb"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/OpenDyslexicNerdFont-Regular.otf": {
+      "bytes": 2155832,
+      "sha256": "d66d8e37a291deaf5f18f45cad4d41d8698d9bdcc169bae70608e5cd020877fc"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/ProggyCleanSZNerdFont-Regular.ttf": {
+      "bytes": 2433748,
+      "sha256": "04cf0be1a5284b4a6fd050d352aab963409019a54b477899e25185cf586ced7b"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/Roboto-Regular.ttf": {
+      "bytes": 159108,
+      "sha256": "15256405ecb0d880678833a582760efad538ab2932318b52c8105b267d159459"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/SF-Pro-Display-Regular.otf": {
+      "bytes": 2230364,
+      "sha256": "7dc04ac11000f759c973a45c6109e2c164372db0db23dd4796c887df73048cd0"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/SF-Pro-Display-Semibold.otf": {
+      "bytes": 2325324,
+      "sha256": "6c4fa1be203ec1b7a5135cf636d87e1e23a91a9aabd556309664251745fd8249"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/SFMono-Regular.otf": {
+      "bytes": 93944,
+      "sha256": "41e67c69ee0bb4a364a985fe4da04b76148a906d998f411a0c4fa79cef9eb08e"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/SymbolsNerdFontMono-Regular.ttf": {
+      "bytes": 2610012,
+      "sha256": "fe471e538392f51910faab985fa8e192a39dd3426125edd15b71b3680df0e749"
+    },
+    "home/.local/share/serpantinum/src/assets/fonts/TTCommonsPro_regular.otf": {
+      "bytes": 28372,
+      "sha256": "b19be67d88bbcdc8d5ec4fa84bf407846cb2e870b01ebb1fd892837988e69d30"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/ar.json": {
+      "bytes": 81262,
+      "sha256": "273af02381f76060030f69a711719a2b7d8aeea8ef675d0fb184887e45569c04"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/az.json": {
+      "bytes": 68577,
+      "sha256": "7d602326c3c24e4937adea3821d85270d3615eee21f035597cd53d0585efa29c"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/bg.json": {
+      "bytes": 87838,
+      "sha256": "a090e6f55763454ae56e4acfe2852212e9d60980f2630a55d18db14db156a9ff"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/de.json": {
+      "bytes": 66874,
+      "sha256": "59b4fa5b3f8c8e29c4db6c03b49a2ad4d2ea4bf90b174c751e84ed5a9432e7c3"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/en.json": {
+      "bytes": 61621,
+      "sha256": "45a0d6038a4c9e0fdd817f593f7ec8296ab3866f27b92c79e75d78d42ef16602"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/es.json": {
+      "bytes": 67700,
+      "sha256": "f058270ee69677f3174167d52148284114f4c75fba2b528911413ae1b032ad57"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/fa.json": {
+      "bytes": 79435,
+      "sha256": "b2afd75e01540913235d44fa0859174e605740c5489177a1258c19443b28760f"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/fr.json": {
+      "bytes": 67271,
+      "sha256": "08112910bb06136a895349e5a121b7074b090ceb3635a8444a447e85e4c94e3b"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/hi.json": {
+      "bytes": 100226,
+      "sha256": "3c4fa3d855578c7d8d0d83cdd633005d36925453e07f03d700e5c3320c65ef43"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/hy.json": {
+      "bytes": 86761,
+      "sha256": "4c68e22bbfca945481c5b34623dffe39c7c61edf365efb4e08edf69810a5d9bf"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/id.json": {
+      "bytes": 62437,
+      "sha256": "e0abe12538c333594ee8141293a40b671aef5e5cc07c3ae584b4da7ccc31c8bb"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/it.json": {
+      "bytes": 64550,
+      "sha256": "d8e9c6931540510389cc0e510fe383f0974a0521b28a3ec653e207a67efc61b9"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/ja.json": {
+      "bytes": 72392,
+      "sha256": "12d15ac2ad16d4ecfed55e4c0451862fdd787f1d9174a7142ec4ecf208f6da28"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/ko.json": {
+      "bytes": 66511,
+      "sha256": "502f46829cf43fe2ccb2d69c6dc8e8665b5e38011f13d81425c3eeaad5831570"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/nl.json": {
+      "bytes": 63720,
+      "sha256": "651ee1fb3e503a29daca3f2c9f53430ea9b60d3ce1ab26002da84e198d632880"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/pl.json": {
+      "bytes": 64866,
+      "sha256": "eddd3ba3acc0ed36e4ff3ac9811d41347ee9f3f863e82c76436ea37027e8de99"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/pt.json": {
+      "bytes": 63514,
+      "sha256": "ff33ab6a37c5f025c385ce76361a9046742496b6f5040662dfb3c76c7a4aa99f"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/ru.json": {
+      "bytes": 88686,
+      "sha256": "d4d720eb87a2495da70d1b3c75102ee847f25672e807f4faf36b068c72e1c590"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/tr.json": {
+      "bytes": 65346,
+      "sha256": "bbea8a54ec62b5d8a667114ac7b53f37bba69ec463555922a11f80d3e92f448a"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/ua.json": {
+      "bytes": 87645,
+      "sha256": "aaaae6bccc4295800dc4ddaca87736acaaea1e43e39231b662d3f711f7dd7d80"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/vi.json": {
+      "bytes": 70499,
+      "sha256": "1e125a6e9da1738191e5e09e9e3a323ca44ccf0fdee466d2938c9ff728448d2f"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/zh.json": {
+      "bytes": 59097,
+      "sha256": "97892eec1670278b489940975dc2cd8c01701b15ed02a6dd351ba2253b674359"
+    },
+    "home/.local/share/serpantinum/src/assets/languages/zh_tw.json": {
+      "bytes": 59762,
+      "sha256": "40364811f7be446a0982cf9f25586e3944f649fb88f5b4a3efe0a54bdecba6a1"
+    },
+    "home/.local/share/serpantinum/src/assets/logo.svg": {
+      "bytes": 12662,
+      "sha256": "73b79df9827b40dddb898fbcd262dd6b45256bf95db6e1ce2831e08068bc02c7"
+    },
+    "home/.local/share/serpantinum/src/assets/matugen/config-static.toml": {
+      "bytes": 250,
+      "sha256": "a49f8b927e7ab105fc2ad233c04c6cf08cbc9d0a5655fdbfe5eef4ae3f4587c4"
+    },
+    "home/.local/share/serpantinum/src/assets/matugen/config.toml": {
+      "bytes": 398,
+      "sha256": "8a567d05ae1958a52b5de7bce1dc653b42249915b83da9388bc054d34f8a213c"
+    },
+    "home/.local/share/serpantinum/src/assets/matugen/templates/cava-colors.ini.template": {
+      "bytes": 546,
+      "sha256": "1a8fa054831842fa13b69148c3f7a7a9b76bd848e13fce81407de221add92c1d"
+    },
+    "home/.local/share/serpantinum/src/assets/matugen/templates/fastfetch.jsonc.template": {
+      "bytes": 1189,
+      "sha256": "c35e991346956db8f0a1f56d2552931b41c081c1b61428684b3ea48814d15672"
+    },
+    "home/.local/share/serpantinum/src/assets/matugen/templates/kitty-colors.conf.template": {
+      "bytes": 2011,
+      "sha256": "eb807998f23c1766e2aa08a669db0be5cb9e0f19ea38f4297d1cb2e04269517d"
+    },
+    "home/.local/share/serpantinum/src/assets/matugen/templates/serpantinum_matugen_colors.json.template": {
+      "bytes": 1174,
+      "sha256": "1a150f9712efb2363d5e3b52e0c7d581ce033e7f3cbc30655ba6c9b44c5e4bbb"
+    },
+    "home/.local/share/serpantinum/src/assets/pushy.gif": {
+      "bytes": 14520,
+      "sha256": "0950b88928eb56599f997b635404538043e45d66a95d6dbb46d7a15b331b46cc"
+    },
+    "home/.local/share/serpantinum/src/assets/pushy2.gif": {
+      "bytes": 29131,
+      "sha256": "2e55680ced35ec66e3ef4f2b72d88f9fd9acc1e02f44c247df986d8bb0c5e910"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/audio/seekbar_wave.frag": {
+      "bytes": 2708,
+      "sha256": "a4673d55ad54194ddd9b7d75332a98a72524c719a7b1f4fbd1426cb982891500"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/audio/seekbar_wave.frag.qsb": {
+      "bytes": 5451,
+      "sha256": "35f956dff85eac66085f90ac2cf199d36abc0c85dbbf5381a43b5294c4557bae"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/audio/visualizer_bars.frag": {
+      "bytes": 4267,
+      "sha256": "5e2aa127f822528048af6f9bebe85e96b7ca1393f64496c0d92b38abe3b7d586"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/audio/visualizer_bars.frag.qsb": {
+      "bytes": 7081,
+      "sha256": "fc8c019cc0fae441a2d4f901a5fb711f6e52af7af3af417c6d037ad07e37480b"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/audio/visualizer_ring_wave.frag": {
+      "bytes": 2460,
+      "sha256": "c696fbd13554cf1fbc4acc335e17c1c0ec0873ffa1a6db038ba8bafff558a817"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/audio/visualizer_ring_wave.frag.qsb": {
+      "bytes": 4686,
+      "sha256": "18ef9b26f52dc261d13f1ef7dc62493357103d0481241174471dd81ca4c7ef26"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/audio/visualizer_wave.frag": {
+      "bytes": 3444,
+      "sha256": "b7d2e31520b56a7563c27f13369ab215e21081613a5eff679afe5f6fd556d090"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/audio/visualizer_wave.frag.qsb": {
+      "bytes": 5725,
+      "sha256": "aeb64ef745ac52d1c589f71e3dabbf31562c3770cc3cade3052a887fca6baba5"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/effects/curtain_wipe.frag": {
+      "bytes": 1952,
+      "sha256": "85bf637d7d8e4fc616fcc962a9db15cfa1784983ab91d036a04ad2c7a99ea8c8"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/effects/curtain_wipe.frag.qsb": {
+      "bytes": 4555,
+      "sha256": "af6fff44850d697bf6e312502bc93129c3e4681cbe93a0dcc89119d52cef2cca"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/effects/liquid_glass.frag": {
+      "bytes": 9248,
+      "sha256": "d3b6f57304868f1afc1b4a3fde91a9c81ba0417102c81b431a4dbbe52a43e5df"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/effects/liquid_glass.frag.qsb": {
+      "bytes": 20973,
+      "sha256": "c0d8d8bfb0b4e310fdcde712c23c98393e7391431f3aecaf277547c87c6e5e22"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/effects/screen_wipe.frag": {
+      "bytes": 1960,
+      "sha256": "8d71ca3d6ee7669364151b53216e9b3150b68315767b0ea1bba3df8618f519d9"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/effects/screen_wipe.frag.qsb": {
+      "bytes": 4667,
+      "sha256": "7606ea329a40e81e8fd6bbc5bb62b6c6bee36bf12ddbb8b1cf09e77dba33bf1b"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/effects/vignette.frag": {
+      "bytes": 781,
+      "sha256": "4e567fd488e3cf548c56f52472f8e14bb804867c8364cfcb1f7e126151699ecc"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/effects/vignette.frag.qsb": {
+      "bytes": 2191,
+      "sha256": "71b83fab594ffea18ecda0bbff472d99c47f433b855e08455f5a654090b2257c"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/fluid/fluid_wave.frag": {
+      "bytes": 2331,
+      "sha256": "1c9b84887cc2f9625303feba8237d6a4dd96f0abe12c929c1c1448fc0b646308"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/fluid/fluid_wave.frag.qsb": {
+      "bytes": 4559,
+      "sha256": "a524268b308121ef072029b3ef1807c27f5b90f089d691722683fe292026f337"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/fluid/liquid_fill.frag": {
+      "bytes": 3558,
+      "sha256": "715e8880b3197a99d5d701b6aab51fbd86cc84dc41480c48264cf3d5655b5763"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/fluid/liquid_fill.frag.qsb": {
+      "bytes": 7457,
+      "sha256": "33ecd30ccedc725af8762de303adcd4a737ca0a3e8908551ef7ef46ff9256597"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/fluid/logo_water_wave.frag": {
+      "bytes": 1771,
+      "sha256": "176f04957b85de5697ac144e625e1ceb53919f42a349377a828e411f5c7f43e5"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/fluid/logo_water_wave.frag.qsb": {
+      "bytes": 4239,
+      "sha256": "7cd38058f32bd16c96baa32eeead286fb1bb66f6430dc535f82c8722f71d81de"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/gauges/circular_wave_gauge.frag": {
+      "bytes": 3054,
+      "sha256": "0cab103a8c848082e360deddd3c7ec97e48ad940159d6a1efccf4ec89ef34c22"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/gauges/circular_wave_gauge.frag.qsb": {
+      "bytes": 5023,
+      "sha256": "743b804c089225fcf16d3a461559fa1341b4780d73fa543a412919732650ff3d"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/gauges/circular_wave_gauge_smooth.frag": {
+      "bytes": 3541,
+      "sha256": "09786d97a01de48a02f6951b97aa312406f60f70369a9b6fdabb8bba0ff419a8"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/gauges/circular_wave_gauge_smooth.frag.qsb": {
+      "bytes": 7329,
+      "sha256": "5a127af72159ceed89e500589d02c2447e2807a260c0615e4a10b88a0e476ca6"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/gauges/clock_lumen_dial.frag": {
+      "bytes": 1712,
+      "sha256": "ef928a108d4aa1ce879e5814a3a0b3451430c00aae8e188b046725d2b85e5b82"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/gauges/clock_lumen_dial.frag.qsb": {
+      "bytes": 4016,
+      "sha256": "d3035f955f754c4b77f1ce1faab36545d79d0b6485daeaf11d148464a93f87cc"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/gauges/clock_second_arc.frag": {
+      "bytes": 1926,
+      "sha256": "82e52a3702e5223eec8f4c746cad220d9650be0fb6a1f67e3311b4e30708837e"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/gauges/clock_second_arc.frag.qsb": {
+      "bytes": 3862,
+      "sha256": "62cedce8b7577df8effac36bb3e16bf500c5c155b8920324b79c1e4829b24425"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/lock/fingerprint_ring.frag": {
+      "bytes": 4318,
+      "sha256": "fdd5c5cc65a2854e0f49af50846e5cf55393c6ea15866090b6470fd0a046c464"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/lock/fingerprint_ring.frag.qsb": {
+      "bytes": 9156,
+      "sha256": "2e80cbdff730fda1ab3a01dd33cd9fb9ca0506515d48d6c5b8936522a13655c7"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/lock/fingerprint_success.frag": {
+      "bytes": 2844,
+      "sha256": "061484aadff04a9b2f96538fc882ca52884242f66a5a6e913087a7f04bbee26a"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/lock/fingerprint_success.frag.qsb": {
+      "bytes": 6910,
+      "sha256": "405c7166aa49afc46c47314990c95f6b9513eca57b7d65cf429c86c10d575868"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/transitions/wallpaper_blend.frag": {
+      "bytes": 2685,
+      "sha256": "9e94f469191a2f96a3776b2f199b27fbb1bde8ca1db4eb812da5c7aafa20778e"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/transitions/wallpaper_blend.frag.qsb": {
+      "bytes": 4633,
+      "sha256": "9867ad77d03d8c2cb7451986c2cf6307429c5b487771e4a71880fa503e3f2534"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/transitions/wallpaper_transition.frag": {
+      "bytes": 2962,
+      "sha256": "22af8e2b50d7189cc4646561566e308eb0c62d6ee92c215d0fbf8b6c44bdbff9"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/transitions/wallpaper_transition.frag.qsb": {
+      "bytes": 4472,
+      "sha256": "627715cccd9bbe27a813bb215e2a68797e804ed503ef757284a89b225a43a812"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/corner_cutout.frag": {
+      "bytes": 1008,
+      "sha256": "ac2fce23b3a3407660477f4161ce88c9b22c4f64c3a75be0ccbe9ba7cc663dec"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/corner_cutout.frag.qsb": {
+      "bytes": 1911,
+      "sha256": "ad3f7e27e1f74531a7dfca832a6fe02016c1f17dd4fe2e824d33e18328c8805a"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/dashed_ellipse.frag": {
+      "bytes": 1481,
+      "sha256": "18ad7b8ba9b9313c99ca1a85d3f7e2d80fefacb922c3d4fdea95e6f4f24bf936"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/dashed_ellipse.frag.qsb": {
+      "bytes": 3475,
+      "sha256": "892cdad153ea20f326a432862ee26543cc7e862d13c468505b8e968a435ee026"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/grid_pattern.frag": {
+      "bytes": 735,
+      "sha256": "8c3b2e37a754773d006581baa0f2b23aafa19b22eac8893fb3f0c2164ebcb04f"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/grid_pattern.frag.qsb": {
+      "bytes": 2269,
+      "sha256": "f07582dc9f9693dfe6794638d50515b7aeeac36f08ccedeeb12a37a2e78b047c"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/loader_blob.frag": {
+      "bytes": 1247,
+      "sha256": "a7ef4a71989deb4c0431c5a03ba5a5542f87bd6d2dd91af558a4967a0e9bec62"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/loader_blob.frag.qsb": {
+      "bytes": 3001,
+      "sha256": "c44ebf8dab4f45f6b516a6ed533e75b4d6b256eb8629f3895a0c499e4bbd9ca0"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/marquee_scroll.frag": {
+      "bytes": 442,
+      "sha256": "27cc660d586f1e5e92cde971e179a316dbe53be4b082dfae120e1bd9eadd4a67"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/marquee_scroll.frag.qsb": {
+      "bytes": 1508,
+      "sha256": "6100345ab6527ff6ca41e2d7bdd0d3ed4fd389233b14eb104967131c5ccd7ddf"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/rounded_mask.frag": {
+      "bytes": 788,
+      "sha256": "229898457c651f825955ea17a4556041c11a56a26acd14e8a1e1caa47a8840c0"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/ui/rounded_mask.frag.qsb": {
+      "bytes": 2499,
+      "sha256": "208833f2a2a57af6558f09f711091ff088d446cd0f700f1d589a19f4ce3a35c2"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/vfx/eq_lightning.frag": {
+      "bytes": 3935,
+      "sha256": "6e8df6022218dbd7dcb18bd68e5ff316694da9ba19a4ab0efc05c20caccd6f77"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/vfx/eq_lightning.frag.qsb": {
+      "bytes": 8619,
+      "sha256": "88893d3e801fd2d6870fa44e66bd9fb6da3b0818f28c24b6dee248c2399f3ecb"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/vfx/node_beams_clipped.frag": {
+      "bytes": 4779,
+      "sha256": "7d32720d289aeec7b353257bbebefd8e211b30e935a58afc1c82af4938b9c120"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/vfx/node_beams_clipped.frag.qsb": {
+      "bytes": 8128,
+      "sha256": "53174a89f71c1fe558000d853ec6e98a15d4f3e19d9bc4fa2c8090c594e9e48f"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/widgets/pacman.frag": {
+      "bytes": 1032,
+      "sha256": "0d6eba796ed59b6ae290b4c4b1b60d16208d9007eb49e66f1f64d78dd79b615a"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/widgets/pacman.frag.qsb": {
+      "bytes": 2675,
+      "sha256": "ac77565dcb38acff800374fd06444ee0e21d254f731c78b057f7d7d33b1185fd"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/widgets/widget_outline.frag": {
+      "bytes": 2285,
+      "sha256": "4ed22466ac56acd3f1360eda865b5b71e5d2cb3fc22b1547e8d7c9b1de443630"
+    },
+    "home/.local/share/serpantinum/src/assets/shaders/widgets/widget_outline.frag.qsb": {
+      "bytes": 4173,
+      "sha256": "1981dcdd25a13e0f5f75a9f7e89b08eb2a4b79e528731acef5d5248cba68b530"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/guide/barconfig/in.wav": {
+      "bytes": 83378,
+      "sha256": "94448e17f4969db1f0a62b4b2c3d28f3b8610035295e44f5b287488424960288"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/guide/barconfig/out.wav": {
+      "bytes": 88334,
+      "sha256": "5a49799f10e6ea59da06d24c3167523462f95e71c74b8c3bed32c369cf0d2404"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/musicpopup/swoosh.wav": {
+      "bytes": 466124,
+      "sha256": "d751ba2a06e28018eb3b1ba981eff6a8a7679eb0f352de2a7988335d2f47ccce"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/network/connect.wav": {
+      "bytes": 159856,
+      "sha256": "64489c39f5394e8a4c5902b4b17eee0d57b0008c03ffff5abfc87ced1a869cae"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/network/disconnect.wav": {
+      "bytes": 364110,
+      "sha256": "7c6ea71b8033a43f67720c0c5d80b0d88876adae86fa0d3586eb18a4ca6d61e9"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/network/power_off.wav": {
+      "bytes": 589902,
+      "sha256": "ef2759f4004f1fe5c917a4f8f3c6dfd0548f3e652cab57232cee0f662294523b"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/network/power_on.wav": {
+      "bytes": 442446,
+      "sha256": "6f9bc1f059ea2b329ff4b82d19af8d067b5b4807eef2e73dfda09c52acb9285c"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/network/switch.wav": {
+      "bytes": 41550,
+      "sha256": "a4e3508434a00b87ca8499a2c89a079ac4f369d35ae7be277e5a7d05748a375d"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/notifications/Botanica.wav": {
+      "bytes": 302296,
+      "sha256": "2a428633bfe0aa26654dc1e7febc81026b06baa7cbf712dfe2d2756f3d6eb1f6"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/notifications/Curious.mp3": {
+      "bytes": 68352,
+      "sha256": "58636839c8198c51ca89e8c3f8f205dc7f53c6eabee7a5b6aaee33fa3683b02c"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/notifications/Progress.wav": {
+      "bytes": 132344,
+      "sha256": "d178edc6cc7d2bc405b048df21d23adf666ba817f70979280ab6fde65a1d8637"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/notifications/Sine.wav": {
+      "bytes": 715690,
+      "sha256": "9b421eadc12fc65d90f773a215a0c8f32fe3fbfb647cd4a807a7c9ed7f7bb04a"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/notifications/Sneak.mp3": {
+      "bytes": 103653,
+      "sha256": "4032c1aeaf41f12f2d93e4de4e6592cb2fd8191898b77ec792661c21496d05bb"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/notifications/WakeUp.mp3": {
+      "bytes": 56842,
+      "sha256": "748e6d03a559ac909d04b9fa907fca3424c6bf00aa45bcad3f6a07238e58f6cb"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/notifications/Wobbly.mp3": {
+      "bytes": 62693,
+      "sha256": "1f00f6568532a3e94a73a806a5383ef61e63cc27cf692580cb28bdfa203c6d8d"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/quickactions/usage.wav": {
+      "bytes": 3006084,
+      "sha256": "08bab077f156ff15cf218150cddca5cba0ee8d145bcbd9d1021c3c00a15f9a4d"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/clickbutton/click.wav": {
+      "bytes": 4686,
+      "sha256": "0dea4d30acdb3c5d5c3c9cccea70e2634efd9a90a04f0ca0253c3eca9d8fd2e2"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/clickbutton/click2.wav": {
+      "bytes": 8840,
+      "sha256": "bf4c5ffc136d66ace461fe55106a562f4d49c9d2427b52320ca6913d497cbe13"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/draggable/tick.wav": {
+      "bytes": 176478,
+      "sha256": "01cb08b0d7c277991f36a9f29894e9cd78c3acc4ecd16b853b71c68a706b6cee"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/dropdown/click.wav": {
+      "bytes": 4686,
+      "sha256": "0dea4d30acdb3c5d5c3c9cccea70e2634efd9a90a04f0ca0253c3eca9d8fd2e2"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/dropdown/list.wav": {
+      "bytes": 84828,
+      "sha256": "b8ef826eda42f157132e3eb298a68e9c028a0e7158d0d78ed838c09dac3cf611"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/fillbutton/button.wav": {
+      "bytes": 952,
+      "sha256": "7be1ed6f4aa95c52de731a5e934ec395dcb0c1cc4613abdf13fb8e1e0d3a0ad5"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/fillbutton/charge_loop.wav": {
+      "bytes": 551262,
+      "sha256": "8904a0c4b80c2d2fd8c9a0fa72edd6c64b61c377e42c72e1d925d4e5f5560d5f"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/fillbutton/charge_loop2.wav": {
+      "bytes": 104870,
+      "sha256": "2bc08a59b7f7c767a37994c50b73d2d2f63c4951a24efcb9e53919def24a61ca"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/iconbutton/click.wav": {
+      "bytes": 4686,
+      "sha256": "0dea4d30acdb3c5d5c3c9cccea70e2634efd9a90a04f0ca0253c3eca9d8fd2e2"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/input/type.wav": {
+      "bytes": 740,
+      "sha256": "0649e34f48c709198ae7392e12f233acd186bd79434a261ae997ec1bc50a4c5a"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/switch/sfx.wav": {
+      "bytes": 8864,
+      "sha256": "3de70aaf46e4d3f4191e53fc47a82d0ec2a36089a30505071d78a5742a1102e8"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/reusables/toggle/sfx.wav": {
+      "bytes": 89778,
+      "sha256": "b092eec92bc09c208766ac171c338aee336719cccb424f93f75f15fc8634badf"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/start/background.wav": {
+      "bytes": 44647686,
+      "sha256": "988d452c7f2254c7e620299a983b8febc193667a2481c24626f753c6fdaeaed6"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/start/exit.wav": {
+      "bytes": 3979852,
+      "sha256": "2f9383a936bb42d105c28b44276f252cd73ed6ad8f89036374a5a3c88cbebcb6"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/start/pop_author.wav": {
+      "bytes": 23498,
+      "sha256": "751f710ef4d5fc452a4820d6808bd8430f220f7922920ff8e5cf7ea0de087f60"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/start/start.wav": {
+      "bytes": 1539270,
+      "sha256": "82a17b2e5805955a338b0eedae3a39137e27ae2cfb626bc790fccecdd239a333"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/start/transition_serp.wav": {
+      "bytes": 453610,
+      "sha256": "fa27e65b91dd1a3976ecc1e7b59a16eee0767d0a92c9e9e5548ad4a2a5cd09d0"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/start/type.wav": {
+      "bytes": 740,
+      "sha256": "0649e34f48c709198ae7392e12f233acd186bd79434a261ae997ec1bc50a4c5a"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/start/wave.wav": {
+      "bytes": 2954828,
+      "sha256": "9f6e39a1ae00b670e70032fbce7a33890c8fa474235ea04a1b12637eb0e8b986"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/system/quick_click.wav": {
+      "bytes": 176444,
+      "sha256": "9ed3369b07b571ddbdd125bde50de3b8896610beaa4617f5c75712b7cb5b0b00"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/tutorial/tip.wav": {
+      "bytes": 535868,
+      "sha256": "14455267b2e71835e7a15cf6ddbb690ec290b1dbf7b1447a5d9db5a45e7d131c"
+    },
+    "home/.local/share/serpantinum/src/assets/sounds/tutorial/tip_guide.wav": {
+      "bytes": 586670,
+      "sha256": "406b6528357a2051a6d40ad0b1f8273f32d588ae6cbd886eb018e8bfd71bad00"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Alexandrite.json": {
+      "bytes": 623,
+      "sha256": "615aff4e036a9e37bbf56d7bd7be60e73ea5501c5694650b32755ceeeca38cc7"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Amber.json": {
+      "bytes": 617,
+      "sha256": "8d407fdef66b4da66758b15d9bbf4246163fa22cde55bdee61420c5a9836512a"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Amethyst.json": {
+      "bytes": 620,
+      "sha256": "4d2f0dd9442b5291443a68433ebe40445c58b9a2fbe5548e2095408aa85c8c39"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Ametrine.json": {
+      "bytes": 620,
+      "sha256": "5a47ea2cc4e60b7350d306a507436e72b95dd5497e5fcb622c69033f390c57b9"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Andromeda.json": {
+      "bytes": 595,
+      "sha256": "bd04531c99434895ce44fe1b89c7240d704883ed3efdf430b5d56410aceb5e73"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Aquamarine.json": {
+      "bytes": 622,
+      "sha256": "3214bdf5412d097b5f12ea4d8a5bdb0d63db2a7f79c6eef7c9552acf963b27c4"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Aventurine.json": {
+      "bytes": 622,
+      "sha256": "64c8461a8b2bf52ffbcf3923ee5eda090c12487571c56b918538925666d20fee"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Ayu Dark.json": {
+      "bytes": 594,
+      "sha256": "fd7a2f976941bb52e5d7db67f4410617fa1b391306bd569733b75676351861d0"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Ayu Mirage.json": {
+      "bytes": 596,
+      "sha256": "d7b0238e1917882247cd24e65a9269171a8c65d23a4fb19594b5f9673b9eba2c"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Benitoite.json": {
+      "bytes": 621,
+      "sha256": "6107c5d9ae6fca406f8099085d640b018974251cb3c3e74200aadfc3811a4a1f"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Beryl.json": {
+      "bytes": 617,
+      "sha256": "23cb8e49536c862a7f0996cd72cce6c07956069241a0c63bc6c2a5f0d3d5368b"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Bloodstone.json": {
+      "bytes": 622,
+      "sha256": "43e53b59dcc9a34152b8f587d40f0460c0c3027c703505a4f9391a0f2b0d5692"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Bronze.json": {
+      "bytes": 618,
+      "sha256": "acf086d56d482dcc273c29511fd4e9a6fb066a68f411a7fe72f2893e50300bec"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Carbonfox.json": {
+      "bytes": 595,
+      "sha256": "1f0006960d5e0c9889467b7a61668c91255b77b93664847e0c9d765efb932132"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Carnelian.json": {
+      "bytes": 621,
+      "sha256": "7a6bd96f9b592925cac5920709345161775756038c8d1402903c39a23d2ba76a"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Charoite.json": {
+      "bytes": 620,
+      "sha256": "f56137d66a1cd247899cee39bc00df1f7f9ef6dfd8615a9bcf7302433b01e990"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Chrysocolla.json": {
+      "bytes": 623,
+      "sha256": "42e1bd99a983c5c7921fa8f3af2eb3c1d22242f4f3d9f370fea49372116d51cb"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Citrine.json": {
+      "bytes": 619,
+      "sha256": "94928e40d7f5120c343f39c9065da3985bcbd24cd8c004e776cf09e1b90295ff"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Cobalt2.json": {
+      "bytes": 593,
+      "sha256": "ce4841d703535aef4cd0b75858257e3809fed695faf590a38818d3a2857d4528"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Copper.json": {
+      "bytes": 618,
+      "sha256": "d8fbbb7968fb5c1b98ae00804aa0640bf5fe542c77ee422e21bfff610a479e48"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Coral.json": {
+      "bytes": 617,
+      "sha256": "4598d9ddf8910153b03c18504b2cd16d14ce6acf9c2eb84b079c6646c8e2dcdb"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Cyberpunk.json": {
+      "bytes": 595,
+      "sha256": "22e7200b69320b1ed4946a4c592e55a3c7eaea006f429e7327ef84679cc14a68"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Dracula.json": {
+      "bytes": 593,
+      "sha256": "2d8553ef6f7bcab353292b46db8bb3fe338f9330adce0ed98ad862e58c902fcd"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/DustFox.json": {
+      "bytes": 593,
+      "sha256": "2cd73e20f6f1abcb4340b68e74ff2802c5d9b536e2548701f1e7e79c239cc39c"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Emerald.json": {
+      "bytes": 619,
+      "sha256": "e4a39aefee2656e8eee835169b66993b24594664b93c2adc5b3a9a3c3e41381c"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Espresso.json": {
+      "bytes": 594,
+      "sha256": "cb82350dc0989a790627368b5f7e53b87563437320073dd73b43cf122ece2001"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Everforest.json": {
+      "bytes": 596,
+      "sha256": "07970f5358325ecdf478fb7469ff2d30fd34ee01db63dc93494e9675005607c3"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Flexoki Dark.json": {
+      "bytes": 598,
+      "sha256": "0d8cbef9eb6cb75283a76e42b4d4ee359706b331aeebbcd465d036453af0635e"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Flexoki Light.json": {
+      "bytes": 599,
+      "sha256": "3ed4f6ea0611495a0c73e93acc46aa5a1bdf2fe5e054e7daf009f26f19be2676"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Frappe.json": {
+      "bytes": 592,
+      "sha256": "9e0d317453a176f1487f72f27095b7a5c4c5e0a96576fe64976ab1aba1fbbd85"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Garnet.json": {
+      "bytes": 618,
+      "sha256": "ac35aad7a0609c967e29466157207e3d066a33a4d4cdfafc87b762152fd3df60"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/GitHub Dark.json": {
+      "bytes": 597,
+      "sha256": "f774cbcd9411251a9f7839c759bf5faf3d68b83b52b4e228a9b6647e2b98d4bc"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/GitHub Light.json": {
+      "bytes": 598,
+      "sha256": "c02f9000f128b65a454477aa0304b61f53aa38d559558c285618ac3cdcb3922a"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Gruvbox.json": {
+      "bytes": 593,
+      "sha256": "92ae4f02cb3d12b56d6ae64e2c4f12809bf895f165af7da1cdefc6f5e0c8b080"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Heliodor.json": {
+      "bytes": 620,
+      "sha256": "260a06c13b3c1b54c55eaac47a7e80bfd6e468cac685614b69904e79176acd68"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Hematite.json": {
+      "bytes": 620,
+      "sha256": "af8e1101e3fa544b2df09ffbd22981b8e9fd7f9792d1e16316df22b1f796c58b"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Horizon.json": {
+      "bytes": 593,
+      "sha256": "b3474b476ea55ab30dc7d40b8d1f68d0189f92f8a24a1e39aada9080c9bac2b8"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Iolite.json": {
+      "bytes": 618,
+      "sha256": "902bb2d13bec95ebe4ac5de5959cc1fff248370ba9c30706654b81b2962c5fb0"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Jade.json": {
+      "bytes": 616,
+      "sha256": "88cd00891ac672e06f2f9d319e3f41fecd67007f69ca45035916ded4434cc68f"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Jasper.json": {
+      "bytes": 618,
+      "sha256": "a0d45fcbffe2eb8041daa27dceb399357190961a8ea2ea44a7352ea854b198b7"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Kanagawa Dragon.json": {
+      "bytes": 601,
+      "sha256": "afce04d2fe12c9e4caf976283d0bf71c17dea414d143ea0094ce361b42d2dc97"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Kanagawa.json": {
+      "bytes": 594,
+      "sha256": "b5375f1f4a65870bbd64c99964c8ca7d392c8130aff6e2afa7595dff9870dc78"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Kunzite.json": {
+      "bytes": 619,
+      "sha256": "a9d35d7f1dcd4365360b507b4363224325d1addd6e58c7ccb9dab7dfb50aa5d7"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Lapis.json": {
+      "bytes": 617,
+      "sha256": "12ce12ee0b0bf177d613b0644b4630fd53a789ac11906095250a1ca034b48b58"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Larimar.json": {
+      "bytes": 619,
+      "sha256": "32d230b7337b6fa40706ff3fc9a54fc257645ca5887df5161c782f1970aa81a1"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Latte.json": {
+      "bytes": 591,
+      "sha256": "463e0b5b886c20303a9b8234b1e1a560e6212328a8e0281f780a33c4f0527903"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Macchiato.json": {
+      "bytes": 595,
+      "sha256": "4a3eeefb18fed16e6949d8e2ee21ba6bf0fddced922425b55c44dad507f84d2b"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Malachite.json": {
+      "bytes": 621,
+      "sha256": "48474a2234d893491ca9fd426f621c45fb2039f1e8a2ca7b19b5a2463047571c"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Mariana.json": {
+      "bytes": 593,
+      "sha256": "a4b73caa27fffbed1231c0becb8eb02baede24e50e9042728e368822a7742aff"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Material Darker.json": {
+      "bytes": 601,
+      "sha256": "4a245f68af68e7e00712482a4a204597a20b737ed5c1829e1a4e31874548c915"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Material Ocean.json": {
+      "bytes": 600,
+      "sha256": "356d673a76503c58198a679e7dd555b0ee630c7a21a044d8ae5587d9833917e2"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Matugen.json": {
+      "bytes": 45,
+      "sha256": "6c0eb5872c5f88ba2eb12f6f6f973015d4df805ff5de34846b1b81fc84449722"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Mocha.json": {
+      "bytes": 591,
+      "sha256": "c76ff65a37fd9a2392324742ebca1ed45e7a318852ddd9da1aa5645ed5c8e20d"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Monokai.json": {
+      "bytes": 593,
+      "sha256": "545fb4ec42c93bbf59c6b2dd82325f134fcf59e3300891676e0a2040bb664d65"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Moonstone.json": {
+      "bytes": 621,
+      "sha256": "7db31aeadc53779b43098af23d21824cb2f19117e9b4e697c7dcee6f68d6750d"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Morganite.json": {
+      "bytes": 621,
+      "sha256": "ddb8242365f19cbfbad2746c5908d12e9a3bbf9f2d8a3284d3d0daa6a5585629"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Night Owl.json": {
+      "bytes": 595,
+      "sha256": "9f9d2d0b0cfcd866b5ff427990dc9ec663b94d3db27d58ca4fd7cc5081cff8d6"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Nightfox.json": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Nord.json": {
+      "bytes": 590,
+      "sha256": "531c6e545e24c82cd73f6ecd8b9d9816402e1c3bb05292ab607e780c44a7c3d9"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Obsidian.json": {
+      "bytes": 620,
+      "sha256": "10956084bdaf45d29dfc9a2448ed417c0aeb7c26da268cb1ae622b7089eaa524"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/One Dark.json": {
+      "bytes": 594,
+      "sha256": "efdf2cb8b0ca1f11dc1cc055bdae26f0d8f727808f4600cc4e6c9acc036a2fea"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Onyx.json": {
+      "bytes": 616,
+      "sha256": "2b5322481be8cffa2df9c749ee11e96d4fe632e9c0fdcc79013c2593371b96fa"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Opal.json": {
+      "bytes": 616,
+      "sha256": "42ce63a9c6187dcd1809aa6c2af035946837a811833c1a5be97ec001a2653982"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Palenight.json": {
+      "bytes": 595,
+      "sha256": "8abb9a60334b8714ee50349e9569b2d9a6cb154af371a1a65e8bc0e1ab2b128b"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Panda.json": {
+      "bytes": 591,
+      "sha256": "41cc0167fb380a46aa426ee52e6fc0343ca1c9b644ef16df0d9a20a1dceefacc"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/PaperColor Light.json": {
+      "bytes": 602,
+      "sha256": "8c1582ccf6f58fdf3b3a52249884b2a96f45ced39d0d6f3d72e47400be74b7fd"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Pearl.json": {
+      "bytes": 617,
+      "sha256": "86b97e0088355518b1a6e3afa3eaf2496bf291c89da4586b32ce650bfb78f18c"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Peridot.json": {
+      "bytes": 619,
+      "sha256": "4e7ca22bef09586bccfbc3feeb8fccac0c5500f9847b5dd830592407286573a6"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Platinum.json": {
+      "bytes": 620,
+      "sha256": "6752af3cade99a8a15dee3b7971d58dcf06b02bd6244a306a9f1895f45fef3dd"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Poimandres.json": {
+      "bytes": 596,
+      "sha256": "679b4fc8e2dbc427e2699c432702ac62f648cb4ea9fb35d46b661296e1f14bc0"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Pyrite.json": {
+      "bytes": 618,
+      "sha256": "f96dfa3d0b8558c7c5ecf871eb4a36857b9ff35c194be8e72909d514180520ec"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Quartz.json": {
+      "bytes": 618,
+      "sha256": "01db0576728b16ac672d3c97198ef4a20199e0d3f6a8d8a52fb0921a0e4853de"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Rhodochrosite.json": {
+      "bytes": 625,
+      "sha256": "c12f65e9e4c39005b858ae9a57f0e5a7a95f969b14dd2fc55bfc2ad1eda96b8f"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Rhodonite.json": {
+      "bytes": 621,
+      "sha256": "12156204bc9de1cfd769d8e01fbe4dc0bd6f2f7446a37588fb02bca712397dda"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Rose Pine Dawn.json": {
+      "bytes": 600,
+      "sha256": "9ffe29ba752b1aff277146860e087a8474dc51b6ae8da6e624465bbb785bcc44"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Rose Pine Moon.json": {
+      "bytes": 600,
+      "sha256": "65b0b0b6c55eed4c138eba7d1fad832cf7cb6a3edcc675c3d22a96dfcd4ec92f"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Rose Pine.json": {
+      "bytes": 595,
+      "sha256": "778d59f2fec3cdecd51dde042e3bf2656ae0bca5de5544138ce4b4743e8faf66"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Ruby.json": {
+      "bytes": 616,
+      "sha256": "9cdd07e8029d50c562b6877e55f6b29fc5923676b37e7ca79113efe920e2cbe0"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Sapphire.json": {
+      "bytes": 620,
+      "sha256": "970e4cfb1a487ef4074f207617ea1ebe11d3096012abbff3f66777e6cd5c7578"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Shades of Purple.json": {
+      "bytes": 602,
+      "sha256": "0d3dbbe034f0f67df294560ca2229c2b2addeb9f719caa7832fcaa1dbe02d102"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Solarized.json": {
+      "bytes": 595,
+      "sha256": "af782e5532e009c8244437a1678f0177930cb19a10554e71c8028821272c38ff"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Sphene.json": {
+      "bytes": 618,
+      "sha256": "fea03ec4a04eed3cb4e58a476779a175d7fe2845cc09dd1cd82d03a6d1ca93f0"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Spinel.json": {
+      "bytes": 618,
+      "sha256": "bbebbaad568d2028beb7b6567d0278e7b691e62f775d43ae4f5fbfaca070014e"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Sugilite.json": {
+      "bytes": 620,
+      "sha256": "d5fa96ac861dca2d47185de818de6b0be505a95733e010eed3d753a14a6e91f9"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Sunburst.json": {
+      "bytes": 620,
+      "sha256": "86fa75ba0c05dafb61a3affaab6003cea445259d55c94a67e8c9b7a603612c87"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Sunstone.json": {
+      "bytes": 620,
+      "sha256": "97ee740e0beafca79ce58e4a9ce59ed424911d083437498cf509743607faeba3"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/SynthWave '84.json": {
+      "bytes": 599,
+      "sha256": "3678e6b587ac354125c008b045a3fefe4b4b18771711fab8ccc6ee187c555fd2"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Tanzanite.json": {
+      "bytes": 621,
+      "sha256": "01d013992993b2deb5a1972109bdb8c9739aedb95d8fceaf858393d8c9ce51cf"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Titanium.json": {
+      "bytes": 620,
+      "sha256": "d9e29d787fb0b321faf7f3408e714e3e7f7328c59c1e2ef371a41ca353f4dfef"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Tokyo Storm.json": {
+      "bytes": 597,
+      "sha256": "fad676ffbce80da8f8fd4a921a8de98966d0c63396b60438fd54bc36526a3272"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Tokyo.json": {
+      "bytes": 591,
+      "sha256": "549c8262aafdf640e519e6d14da71841e2cbb805769d92fed90b3f08a6de49fd"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Topaz.json": {
+      "bytes": 617,
+      "sha256": "1bd777ff7ee6ba0ab59ff345522bc45d1388765c46da626f6e166d8a1c147c3c"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Tourmaline.json": {
+      "bytes": 622,
+      "sha256": "efb5dacd9a22b0eec6958f1426e1de0c23c63886e4c93cb00e5475496b159ffb"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Turquoise.json": {
+      "bytes": 621,
+      "sha256": "4f470a963793c628f6f2cade769cfd8f4f7cc1b0712197dd2dbc7acbb9d92b70"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Vesper.json": {
+      "bytes": 592,
+      "sha256": "2c99acc5885fa7eb7bbb374586cb59d5c94260820d96fa31cb1cceeff43ed7a2"
+    },
+    "home/.local/share/serpantinum/src/assets/themes/Zircon.json": {
+      "bytes": 618,
+      "sha256": "517ed086caa1e264b5b909aa923a9fdb6fab35fb1994d29a4e264a9b601a7acc"
+    },
+    "home/.local/share/serpantinum/src/assets/tutorial.json": {
+      "bytes": 8955,
+      "sha256": "7641e4e27c52c6af3baab2cd50169d99132d9efd4528ec602a9dc4c126adb1f4"
+    },
+    "home/.local/share/serpantinum/src/assets/widgets/dashboard.json": {
+      "bytes": 1003,
+      "sha256": "2faf7f75c52d95d5d48a1af323ab386380b8545db7e5c33b2a17b070e9418e5c"
+    },
+    "home/.local/share/serpantinum/src/assets/widgets/media_station.json": {
+      "bytes": 395,
+      "sha256": "627eb92e6b138d2f042f151655fe6f418972349cbb366fd764ca0af2061dbfd9"
+    },
+    "home/.local/share/serpantinum/src/assets/widgets/minimal.json": {
+      "bytes": 372,
+      "sha256": "89aa6fa6ed5b53e477040908fb3821eec0fac40d507fc64188d8b3d587259a54"
+    },
+    "home/.local/share/serpantinum/src/quickshell/Dim.qml": {
+      "bytes": 1070,
+      "sha256": "4e64a39aa564d1f826536f834783204b1ae389ed19b283f7fbc172f83dbf33b4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/Main.qml": {
+      "bytes": 32153,
+      "sha256": "5c6d1ab0923624cce622b6e951231d1961f98d0ba967499298820e5842794f34"
+    },
+    "home/.local/share/serpantinum/src/quickshell/Runner.qml": {
+      "bytes": 258,
+      "sha256": "ae437c4e2e673f57205c9afb22698722d8eb9f93d2f5101f80477345e0271888"
+    },
+    "home/.local/share/serpantinum/src/quickshell/SettingsApp.qml": {
+      "bytes": 1924,
+      "sha256": "fec7a66956b637b59b94bcf20144386630ae1d8cd06b990eb8a7b939639e05b4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/Shell.qml": {
+      "bytes": 2787,
+      "sha256": "9491bfe0d3c2a616d1b1511e1de4d51c13dd2f717e411c31ccfd804c9c0d09d2"
+    },
+    "home/.local/share/serpantinum/src/quickshell/WindowRegistry.js": {
+      "bytes": 7962,
+      "sha256": "4a6d32dce8b8ba6683a522641cee42dec70b07c4b424747324e479931d7ffc7e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/Bar.qml": {
+      "bytes": 18746,
+      "sha256": "ee59561fe9023f8514f6f263dc1cc5d715440698de0ca3988ccae4a4bfac9aa2"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/BarModule.qml": {
+      "bytes": 7304,
+      "sha256": "2b59278c2439bbf3fa4157d7ea1ab2916a059a7c0c957a1de90dde137813a53f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/BarModuleRegistry.qml": {
+      "bytes": 17288,
+      "sha256": "c73bd48d4bba17552d6e6b98948da84a49ab8cb994e7d5c6492b47cdc04ee6d9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/SideBar.qml": {
+      "bytes": 40247,
+      "sha256": "99dfae13592f48573f56e2d7faa2492fb69607e6e7244838c4692fbe30fb5bc6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/TopBar.qml": {
+      "bytes": 41858,
+      "sha256": "3b7f09e1877841395947beafe3743e052650a12af294ed3a9852119791fa1e41"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/bat/BatFace.qml": {
+      "bytes": 30921,
+      "sha256": "a29a0f3d5d8736209e559a5072cdc0bdd7842e602e59acfcbb059e5dca14eee7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/bt/BtFace.qml": {
+      "bytes": 15949,
+      "sha256": "46b47669133be28b48b8d199cec15773079d8b4f22caea107536c81948c9f737"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/focus/FocusFace.qml": {
+      "bytes": 6661,
+      "sha256": "468da3b53a02fdcc166d31f086a094e5b213444e27790fb6822bd54f8b6b0c80"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/info/InfoFace.qml": {
+      "bytes": 10396,
+      "sha256": "2d241e654c2c65f52092760ec3f9e7e1d289126c2054032affa218c1d559e1f7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/kb/KbFace.qml": {
+      "bytes": 13766,
+      "sha256": "489bfc6bb72cfdefe04454c8eb3dd064edbe0d081d3a06ad7a54684d579a4b48"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/left/LeftFace.qml": {
+      "bytes": 6206,
+      "sha256": "5c7a34f0cc1f86b22beace3deec77bea9a9ad51963aeb63017e78bee187b11af"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/media/MediaFace.qml": {
+      "bytes": 26985,
+      "sha256": "26e6c36bbd43393d149b5174061f6c68487cb527c292da9b23364d64ad0128fa"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/sysmon/SysMonFace.qml": {
+      "bytes": 10770,
+      "sha256": "f32e7698aab7c33c2eaad4990070c150c50e2ab5df8072be49d7b6cb944a2a30"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/timedate/BadgeFace.qml": {
+      "bytes": 15928,
+      "sha256": "5b43b6cdad8c7ea7f0e8846759503146d73e51d7307d76f4acc44c2af1e105bc"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/timedate/ClassicFace.qml": {
+      "bytes": 7015,
+      "sha256": "d34864c248971b4e80f733ad56c7d2b68c3183ff2b73f32734aac68729b646e7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/timedate/MaterialFace.qml": {
+      "bytes": 21199,
+      "sha256": "fb11934d2744b12d9df91e981e8f6c77a80f53cc469646b972fd47b536ec7023"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/timedate/TimeDateFace.qml": {
+      "bytes": 4905,
+      "sha256": "181c4c3f0c8796a6fa3fe08aebd675ca1969657f7ab8614df64d28e817809f0b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/tray/TrayFace.qml": {
+      "bytes": 9971,
+      "sha256": "8c7ecad8b0c7a55e5c1ff3dca00a4c35d39d1887a22fe27f81555d3f011b8d26"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/vis/VisFace.qml": {
+      "bytes": 7333,
+      "sha256": "2cd17b7d2d510655e8db7855ff447597160affd7e980e3b8e247f4ec7504490b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/vol/VolFace.qml": {
+      "bytes": 13241,
+      "sha256": "a4a7349b1ca3155665ebe34e7fc899baa049b913f00fb6a86930e3aa1edbc625"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/weather/WeatherFace.qml": {
+      "bytes": 3997,
+      "sha256": "68ca375af9c439d57ff5e65883ede8e1fc1d5917ade8a70ce1a870c96ff1edaf"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/wifi/WifiFace.qml": {
+      "bytes": 18546,
+      "sha256": "b936e9e1626b23cb78e890bf5c0c56c887e57d7c5f66e1877090aa79e825195e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/workspaces/NumbersFace.qml": {
+      "bytes": 8948,
+      "sha256": "6974c560305fc039b374bec6362dfeb10737d87d880982a87d7192ee7d410df3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/workspaces/PacmanFace.qml": {
+      "bytes": 11948,
+      "sha256": "fa0c11a6743317d2fc5806574118c98d6075d745896af73cb9b83e106fdf20e4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/workspaces/PillsFace.qml": {
+      "bytes": 8421,
+      "sha256": "b8c0f9eed6cb81d9ac4dc9f6f1211e5e4ea86eb50c3bbfc443b2d96a0fe9229e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/faces/workspaces/WorkspacesFace.qml": {
+      "bytes": 13787,
+      "sha256": "2a3fd3c9fbd6fd8a003e5d61c72f9dd329b55b94905114c2be1073b3745affbe"
+    },
+    "home/.local/share/serpantinum/src/quickshell/bar/qmldir": {
+      "bytes": 144,
+      "sha256": "fc926312bf6ba80ba059b01d4f7b3e726d08afb0098cc9f4176c8ffed8d1a274"
+    },
+    "home/.local/share/serpantinum/src/quickshell/calendar/CalendarPopup.qml": {
+      "bytes": 50425,
+      "sha256": "8c8788be36abd5e18cbeaae643cec560ce193776250d350a1dfa98ceb24b08f8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/clipboard/Clipboard.qml": {
+      "bytes": 74091,
+      "sha256": "d56069949ed68a27999957d141146edf03c1f0eed5443932b7173c91cdb9aa7f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/clipboard/clip_fetcher.py": {
+      "bytes": 6206,
+      "sha256": "6be8347cb7ec0336f35036c96c4ebfa8fe72f71370874aa31b2dc1ad02776729"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/Dock.qml": {
+      "bytes": 457,
+      "sha256": "884be6cf5256509940f14175323bab4244604c40aaa8dc5f7db0aaac4d04307a"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/DockAppButton.qml": {
+      "bytes": 22670,
+      "sha256": "da8c43936ced407ace44bc6aedd15d6c494ab4551919c94d436fadf7b63dc770"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/DockAppPicker.qml": {
+      "bytes": 8917,
+      "sha256": "2b4ed7b0333a60d5cdba6714fb9bc12bd38533c98f5dd233610b08aece924907"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/DockContainer.qml": {
+      "bytes": 21578,
+      "sha256": "a90905a9367bffe56b9c7c2815218063af9b0091e985bf25c50e5797a7c86ce6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/DockExclusionWindow.qml": {
+      "bytes": 1027,
+      "sha256": "2bf6d9be7506a34e3d664bfe7ff4ca6e1f38b74eeacdd0e94b1f5ac1a4d22771"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/DockPickerRow.qml": {
+      "bytes": 6266,
+      "sha256": "0cc91a86036ec89f42d2f698bfa530f2c3787fd8ec998bf19f51f3d4dd430374"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/DockRunningButton.qml": {
+      "bytes": 15673,
+      "sha256": "46f236204739f485212bda483a8a7ad66c29d9b9eb177cacb18c760c80b66f77"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/DockWindow.qml": {
+      "bytes": 15294,
+      "sha256": "9ab0587e30714532c124d1028bb9081e57f172e953452351b3f51852ef2aff5b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/DockWindowApps.qml": {
+      "bytes": 19372,
+      "sha256": "0a7b75925b4f2bcd6b7495de4e244b9b613546241cf9c447111e777d021d2c38"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/DockWindowState.qml": {
+      "bytes": 20053,
+      "sha256": "6abdd018de1ae3c463bf3b792bfb6eb17472e8b2cab7a4b376299eead6e7b391"
+    },
+    "home/.local/share/serpantinum/src/quickshell/dock/qmldir": {
+      "bytes": 362,
+      "sha256": "6804852f4d61dd9c0ee94a97ff1150f45b8f6ee9f414c2de6498efecf3e11365"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/AboutTab.qml": {
+      "bytes": 19244,
+      "sha256": "764e18a4ab64f41cc9900f50c34ae3fd9c0064a12ed89af93abf2718d4a1ec6f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/DockTab.qml": {
+      "bytes": 90333,
+      "sha256": "c0f969cd8a35d37184e37275aa6a1a31a62d50ed901411f503979a577f00a5cc"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/GuideContent.qml": {
+      "bytes": 11124,
+      "sha256": "78923d5bf4d27cd4d41e688814350b337ce0a2d4a1150148fd8b008fe546e4af"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/GuidePopup.qml": {
+      "bytes": 41638,
+      "sha256": "991a720cade039919c8de3ce4abeb9f3a17c27053c7f5f1adcac8f724167b459"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/GuideSearchResults.qml": {
+      "bytes": 27505,
+      "sha256": "33b59e35e0b98f9dec3f416f55ab77a295a450502d7195adacb0defe3dba2951"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/GuideSidebar.qml": {
+      "bytes": 23132,
+      "sha256": "c1c2c9ab5d919f69486ce2d17e2722471444746d832fc68c07bdfad36c60b41c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/GuideTab.qml": {
+      "bytes": 464,
+      "sha256": "19b3d761d251f447a05fd5e4401317f142b1b5b92137ac1cf071a91fe00c7504"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/IdleTab.qml": {
+      "bytes": 42929,
+      "sha256": "d5c6da70181cc17fe23e5d0649b1554c0a60f1939bcbaf9ce8ccd5ac85be86c4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/LauncherTab.qml": {
+      "bytes": 17333,
+      "sha256": "490dc35d70eeccbfcfc497bd3457f3f0f23d742d4c7e4f77e8d71ec0cc180ce3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/OnScreenDisplayTab.qml": {
+      "bytes": 39143,
+      "sha256": "e56e302c8a4262d4c5506bcf100e13b640d727e5d77c57b3c881d1325d0681a8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/WelcomeTab.qml": {
+      "bytes": 8960,
+      "sha256": "d8dac2af5091e7ffd626e4ea0549cd5343c1cdd4ca68d6729de3ad42dc331f9c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/BarGeneralTab.qml": {
+      "bytes": 1371,
+      "sha256": "000275e7f7a7306d0336ad8126adcd2181ad1bc1e5955301b7b314f399fc41f3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/BarModulesTab.qml": {
+      "bytes": 2173,
+      "sha256": "94d0159934cf811cfd1323798930bf54d985fc2f0990803ff31923a10d2ef3c1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/general/BarAutohideSection.qml": {
+      "bytes": 2369,
+      "sha256": "a60a2296ee2db50f9b9bfa812f8e5fbb3f82dc2116a89e7d25941ceb62e229d6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/general/BarDragBox.qml": {
+      "bytes": 13462,
+      "sha256": "46042eda9dd71abb86ea4385784c6b153a0409398020529ff561fe222b2b304f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/general/BarGeneralState.qml": {
+      "bytes": 28015,
+      "sha256": "e28a4f2979e9ce4b457717ecd51cad5ef1f353f0170d3bf76894c73d6c532e2f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/general/BarLayoutEditor.qml": {
+      "bytes": 3490,
+      "sha256": "00fc1c14646f083aa9098e3208f8257e95ada6e376725c46809db674b4c9863b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/general/BarPlacementSection.qml": {
+      "bytes": 6671,
+      "sha256": "26d184e89b66194f6930317cda2d97b766ab3f8acb8487f536389a19e01f1504"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/general/BarStyleSection.qml": {
+      "bytes": 2434,
+      "sha256": "2736def7951930a56fcfbf047acbd6ad505041601349ba5eb23f73adf8a801f4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/general/qmldir": {
+      "bytes": 244,
+      "sha256": "2f9579f849cbe40962df1e841754a58b357f6c66cf5d4b4a76d1687656f4a235"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarBatteryCard.qml": {
+      "bytes": 2844,
+      "sha256": "168d6514e6bed4c71fc1b90b686b27ac3350ca208f5de0f00ab1269619494593"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarBluetoothCard.qml": {
+      "bytes": 2615,
+      "sha256": "a0fb6d7e200601846c3d22537e089e4fbc0693bcf9ce6d8385a0fc45336b63ee"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarKeyboardCard.qml": {
+      "bytes": 1772,
+      "sha256": "a3742d471aba7bffe423c1ca18fb410b40038b0ccfb8b059d11772305530aaef"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarMediaCard.qml": {
+      "bytes": 5101,
+      "sha256": "6de68f14fadfc9e5e86aeb6fcb805a351fffb43e97234ad6490b5061a16b87e6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarMenuCard.qml": {
+      "bytes": 2746,
+      "sha256": "53b95bec1e1cd3ac292f00895d1d04c014d4ed3cd6b0092f98fc591663c354c1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarModuleCard.qml": {
+      "bytes": 4052,
+      "sha256": "31b9b80159a46bad7270176c49ca54002cafeee5ddbd9c0a53730efdb41b5846"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarModulePreview.qml": {
+      "bytes": 2741,
+      "sha256": "92db0ddb68577e37b4b06d6618f4563ca71e7e3578a3fdfee6cfe81e88fd3ceb"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarModuleStyleCard.qml": {
+      "bytes": 4103,
+      "sha256": "b35f6a76ad933b07d29de81633ae051832db0c1c594b61cb8b94429265f59d3e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarModulesSettings.qml": {
+      "bytes": 23777,
+      "sha256": "b35a5b574e82f49ef30576e86ba75bd3f9cdc8019aa3249b5e897ec88373d558"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarNetworkCard.qml": {
+      "bytes": 2692,
+      "sha256": "92b9453b13d8e9b6f84c434aed521da847fed72c83621b0e7e24cb51cfb01530"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarPreviewWidget.qml": {
+      "bytes": 794,
+      "sha256": "ab4abaa6c59db7bdaa6371abfa4085c342b2925513c0ba375ccd5ff6a80717fe"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarSysmonCard.qml": {
+      "bytes": 4996,
+      "sha256": "3f725287ea4fb6babbf6cf772086276b055ad5649129d3dd225202b8067a8c84"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarTimeDateCard.qml": {
+      "bytes": 5851,
+      "sha256": "a6a410995f2966870b8fe3a50913fd8e9f5260a54679b9843404d8c238b884e0"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarVisualizerCard.qml": {
+      "bytes": 5860,
+      "sha256": "5750536af21c51a9dd36c5a3cebd0f95b658b6e1ab34462f73e06b8fd062523f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarVolumeCard.qml": {
+      "bytes": 2677,
+      "sha256": "e799b55622cba3e1436dff2c3cdbd432cf25705fb1d1666664a6ab649399241d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/BarWorkspacesCard.qml": {
+      "bytes": 7285,
+      "sha256": "d833e6574371905195b60c4e6fc7e111c44e0e0a1a96ac1ee34ae9880dcafacb"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/bar/modules/qmldir": {
+      "bytes": 636,
+      "sha256": "348ea37b322d432ee1b718b7acaa3241e7b33666026e654ab525a9130f8b412b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/DisplayLockscreenState.qml": {
+      "bytes": 4088,
+      "sha256": "ee6044b0d4f6f00d0b24bc033651b5aaeab1ceebad5ace72da39b3242de0e1d0"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/DisplayLockscreenTab.qml": {
+      "bytes": 9330,
+      "sha256": "85c95128c522959472c712fa147ec901ea9986f4481860e42cbbad4afc4a2739"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/DisplayMainState.qml": {
+      "bytes": 21605,
+      "sha256": "5488fb2c1617e429b0db9896a8bf25f4854741d37a20e736b5710edd71ffd704"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/DisplayMainTab.qml": {
+      "bytes": 1227,
+      "sha256": "7775faede8d21ee1de715f8459fb7c04b28c9ebbf071a13f3e487d413f748502"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/DisplayMonitorCard.qml": {
+      "bytes": 14336,
+      "sha256": "cec96d55022cd779a36b881b9de2c55cb5db1e082a67c552f4e10a5769e72620"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/DisplayWidgetsState.qml": {
+      "bytes": 28517,
+      "sha256": "c716c4e99571dba4643ff7bc7300c8e423021de5eaffbf6f0d67c36aabb94fe4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/DisplayWidgetsTab.qml": {
+      "bytes": 2436,
+      "sha256": "9bb7dd3afe863d7c9796c3bcc6e5df0f512f9374b00bf8e0467755c63183c7b5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/LockBackgroundPreview.qml": {
+      "bytes": 7811,
+      "sha256": "8e7548fec94474e638e832e8ca5e3d57d7102e24c6314ef60d3d4fbc30c823d8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/SavePresetPopup.qml": {
+      "bytes": 15874,
+      "sha256": "74a9b352e7bc1dad9ec1e2987fa29893e95c30c92a1896a7221601d3262ab348"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/WidgetItemCard.qml": {
+      "bytes": 3242,
+      "sha256": "efdcf9858ca34c5c0f2c0181a969c2b3a65024369f17fae5031e6e3711dbb470"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/WidgetMonitorCard.qml": {
+      "bytes": 7053,
+      "sha256": "2fd74bff39b43592ed78ca5a64221c6624fa0bb7a5ac02a6e96370989d0d2422"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/WidgetPresetCard.qml": {
+      "bytes": 7419,
+      "sha256": "d4c1eeb7b82fc668b51c38ed966af3f8c4e27ce07754f87d3d83480ce98fd07c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/WidgetPresetMiniWidget.qml": {
+      "bytes": 4578,
+      "sha256": "5fc2142d24543cf9ff062efdf2f5310738393255f93e0aab2fdd4cba5ab88b93"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/WidgetPresetsPanel.qml": {
+      "bytes": 2299,
+      "sha256": "6e686a24509018b667b13f5758793dde35c16f56afe9c68024048d2fd6473795"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/display/qmldir": {
+      "bytes": 506,
+      "sha256": "2b495ef7d5590a293a42e2d515c6dc1577a7ce9a732a52b634d65aeef5cafecc"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/general/AvatarPreview.qml": {
+      "bytes": 2584,
+      "sha256": "7fd7541428f59d4b4eb04f5b8e0f5eea87f34d7ea3e461a83d45956074f64e0c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/general/GeneralAudioSection.qml": {
+      "bytes": 2584,
+      "sha256": "2a3aa80f898b1e157beccbd7b750c075cefe5c3460dc30db4e3929502200c10b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/general/GeneralBehaviorSection.qml": {
+      "bytes": 1622,
+      "sha256": "565f38f1c1f87326be0a9b3c802bb7764e6cefc5c8a4cb1c21add1b6e5aad9b2"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/general/GeneralLocationSection.qml": {
+      "bytes": 8611,
+      "sha256": "cd538f844cf5e6a1f32050c8fa28d57785ccb3fb5f2bd46dd5735f88f11481a6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/general/GeneralProfileSection.qml": {
+      "bytes": 4598,
+      "sha256": "e8071493ff284759450b96f5976d07bded0feb19075a7fbd7cee60a5a86813d4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/general/GeneralTab.qml": {
+      "bytes": 8247,
+      "sha256": "fcd6f213858d8367746a627ce8dc014651a6a9f01463b3d3eeabf78d7a4adf0c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/general/LocationInfo.qml": {
+      "bytes": 6766,
+      "sha256": "15903fb39687cde26bad88e8b4bb2625785962dfd2af99da4d9d295331272650"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/general/qmldir": {
+      "bytes": 278,
+      "sha256": "dbd5be051d648f90c0ffbb1caf9cf09898b81042df1c1ded4be7fe8af25573da"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/notifications/NotificationPositionRow.qml": {
+      "bytes": 15462,
+      "sha256": "b582be8ba8b1932f329a1aa9fb81d1c288f5a1d38fde59ac2081225a75f2d662"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/notifications/NotificationsBehaviorSection.qml": {
+      "bytes": 2367,
+      "sha256": "4e5244f51303637f1fe60b00dbab077c13e94b4c785abec06fda7c1ab7c55376"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/notifications/NotificationsSoundSection.qml": {
+      "bytes": 4112,
+      "sha256": "9b88db2c4443c9e468efa305cf79bd288f066b8b80163a78daa2394fae5e78d8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/notifications/NotificationsTab.qml": {
+      "bytes": 17957,
+      "sha256": "faaa2b1754655f94dbe389e8abab59bb53adff75776c7f3b775dbee2378e3042"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/notifications/SoundPicker.qml": {
+      "bytes": 6516,
+      "sha256": "01bb2d1da1233e52bd59203adf10c0d0062e619ba01d0227193fa25292a65565"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/notifications/qmldir": {
+      "bytes": 214,
+      "sha256": "4a24e3744a175531796d0d1cd90f78201be516329b71d224983b9904afe4dc75"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/qmldir": {
+      "bytes": 170,
+      "sha256": "bdf59f23ba462740edb8c56829329d5a8a2be2d7d0b8f5b15745d7347dda8d07"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/screenshot/OcrLanguages.js": {
+      "bytes": 2301,
+      "sha256": "6316d29d875bbb33ca43e4a4cbe710ccc7e97dc3ffe81012fb40325f76530c83"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/screenshot/ScreenshotTab.qml": {
+      "bytes": 14550,
+      "sha256": "6c62ed0b58e7de5bbd7f1f5e3b253e4eaa335e71a7358c3c3fa5ccaf49bbb4a9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/FontPicker.qml": {
+      "bytes": 1166,
+      "sha256": "4b079dd8e246aa97749936bd4cac9220b514134958635104dd864c5940363ee0"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/PresetsTab.qml": {
+      "bytes": 213,
+      "sha256": "389ea05712dca5a4c957eea4f13a44ea813ac4b1c89a5faba35046caff63a33e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/ThemeAppearanceSection.qml": {
+      "bytes": 8573,
+      "sha256": "1a01f8a9f88ee81805fea98a6f191d16ea237098adab7e12c444951b13300d34"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/ThemeEditor.qml": {
+      "bytes": 9617,
+      "sha256": "6ea3287e869c919eb89b49289826761cc83b5055e4a0186609749bb0b22a5ce8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/ThemePresetDelegate.qml": {
+      "bytes": 1357,
+      "sha256": "05c5b9eaede28e7443c9b62d2c3ad9981c5f39302fc5c9e694f24a2469e7e4f8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/ThemePresetTile.qml": {
+      "bytes": 6910,
+      "sha256": "e1aafe2031b24a7b91045ee1e3e944970fd190ba1379107786cf46aaa3aa04a7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/ThemePresetsSection.qml": {
+      "bytes": 3707,
+      "sha256": "7c39557eb23d5906857cc8b37c87235b2a139ff177e80907196462daf1444cd5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/ThemeTab.qml": {
+      "bytes": 1729,
+      "sha256": "94f3892954e2eaf66accae40c5a2c4d8e44b511bc2c59b495fb14b6085cda332"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/ThemeTabState.qml": {
+      "bytes": 29019,
+      "sha256": "7df5b6e56bd9cde9b342a845cda0905fa86269d8ead54dadd6a10c06aa2d3217"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/ThemeWallpaperDirRow.qml": {
+      "bytes": 2747,
+      "sha256": "51c911dad0f46ed8ac3e31fcdbd92d83fe5220c58c4ef83f1cdd505d689b473c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/ThemeWallpaperPreview.qml": {
+      "bytes": 11444,
+      "sha256": "5b83b630cd0b1db9d124f622bdc782f4900bbe62b72db22890be8811f406d94e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/qmldir": {
+      "bytes": 390,
+      "sha256": "30a21b7ad2f0b0f117d9d59cb402f5d958f6508feecc7be72e8acde1c474ebd0"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/theme/theme_sorter.py": {
+      "bytes": 7406,
+      "sha256": "e406144439b989a66c2ff3ed858b77db8cb4950d0af4ab3576772085385d9dc5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/DigitalWellbeingTab.qml": {
+      "bytes": 732,
+      "sha256": "5bbe17722075ecf2d86d5d4495e7dc906ac6507b30ff6b016d3fdf6a02911ec6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingAppPicker.qml": {
+      "bytes": 10206,
+      "sha256": "186faca4acb45faaec461ff167f6ecc92004291fdecb0d628a5634440956631c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingBottomPanel.qml": {
+      "bytes": 14925,
+      "sha256": "2e5b42fe8877ade5c9565f21f976673de963901538370e82d9ac5f4c0549f91d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingDailyView.qml": {
+      "bytes": 1833,
+      "sha256": "b508bf2d65f1a0553128cae8419de3f6ca1b66c1f95f7754cdf8be7694c73265"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingHeader.qml": {
+      "bytes": 6547,
+      "sha256": "df998bfdd3dbdc78c92c9f3b62c3d834fddf3acd34358809eba4585c560d5074"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingLimitOverlay.qml": {
+      "bytes": 7449,
+      "sha256": "b9ebe833802071c52cc93d7d71b710c408b26851db32e9780ba32b0731298e12"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingMetric.qml": {
+      "bytes": 1693,
+      "sha256": "76d85eeb2181cfd613d291571dd9f41347e5e793f899901137d321fa1e62dd61"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingMidRow.qml": {
+      "bytes": 10132,
+      "sha256": "b904ba5da6085da57cccec6fa4619021213c76142759af8fa4c1faea4435fad1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingSettingsView.qml": {
+      "bytes": 7637,
+      "sha256": "7d1c1a8d2a14b1ed4b34c856c2ea28d295b7ef74567474c5fada90d3f8896677"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingState.qml": {
+      "bytes": 22289,
+      "sha256": "aac37109b8d1e09525e020ce1e85cb6cc35b00f9e29b83a46f20bfa9ad042ad9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingStatsRow.qml": {
+      "bytes": 6689,
+      "sha256": "b3d4e4f1736df392d8ce5e5fd316de0e1056bbe1026bc9729b78c634500478bb"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingWeekChart.qml": {
+      "bytes": 11783,
+      "sha256": "6f166f24d1a31b261cc11d58270becea6da2c6ec2c8731f2d7d5b60a932f1c0d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingWeekDetails.qml": {
+      "bytes": 8602,
+      "sha256": "c2bd586df9576b2e8aec143a34d2110f471529973ff1357c3e4213ed9bdf146f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/WellbeingWeekView.qml": {
+      "bytes": 556,
+      "sha256": "5b67fbc291f5d3848b1b03dceb7cd2d3a1a930f407210d7751bbdc7c1c6f47d2"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/focus_daemon.py": {
+      "bytes": 30000,
+      "sha256": "6673726250ad487ab6ceb97f46e151272acd4a561631cf676c303b2b61399365"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/get_stats.py": {
+      "bytes": 8579,
+      "sha256": "01b1d29678ead4d8afe4980b69ffdd35fa187a3bc8e7c90420fef0da56aede4c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/launch_daemon.sh": {
+      "bytes": 136,
+      "sha256": "ee9b054f4b80be20a4552bb786aabe5c6595f6d764279981ce485de288d530e3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/guide/wellbeing/qmldir": {
+      "bytes": 636,
+      "sha256": "95fa2f364d2e8e043c3d4040c3f1251bf83ad90ead7bfcf3b2579cc6070b2ef3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/idle/Idle.qml": {
+      "bytes": 17803,
+      "sha256": "33b50972b194f1520de0d1b814de33a313148479e781e89bd7da8d528b1ebc79"
+    },
+    "home/.local/share/serpantinum/src/quickshell/idle/idle_helper.py": {
+      "bytes": 12713,
+      "sha256": "f85b7c52fa94eaeacc9e7aadcf5e1703fbe61c33bc9ff89f23bd6981336198ad"
+    },
+    "home/.local/share/serpantinum/src/quickshell/launcher/EmojiData.js": {
+      "bytes": 296390,
+      "sha256": "329addaf78b2281d7435ec6a75d823b9d3fcbeca0bb1ea8a31db5d63a464be91"
+    },
+    "home/.local/share/serpantinum/src/quickshell/launcher/Launcher.qml": {
+      "bytes": 96827,
+      "sha256": "8d611cc553f8d4960b6f6830b5d5ebdd0dc017d170a461198e6f4a472652f66c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/launcher/SearchProviders.js": {
+      "bytes": 1430,
+      "sha256": "532055cba8a997a27d30bd35ea099e2ea1ea576cdb384d695b143a71c1be91d7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/launcher/app_rank.py": {
+      "bytes": 5866,
+      "sha256": "749a72cf717a796c116d46379498421fc2ec2a4c674a223e73c896429947f489"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/FingerprintIndicator.qml": {
+      "bytes": 17972,
+      "sha256": "90cbdfd8226e206a7b969b0ca53421994007a8ff43ef57e99cec98e998e98b78"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/Lock.qml": {
+      "bytes": 20804,
+      "sha256": "0072b7f643ce8872a324468e4dfffa9ac80313ff7561d8ca643ad4dbfea2ab86"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/LockBackdrop.qml": {
+      "bytes": 6673,
+      "sha256": "f17763bc758935fc92a4bf3b01605c4d65181c0dd7944674753758bae2f94a14"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/LockClock.qml": {
+      "bytes": 974,
+      "sha256": "d2910fe38bc37fe381963e7e37e8b389580ecbc1a9dd7d010f79580f88616f03"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/LockDashboard.qml": {
+      "bytes": 4605,
+      "sha256": "9b04f2221c3a4cb51969105e13396509ed3c8cdad0d6fd59483090b16d2395ba"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/LockPowerControls.qml": {
+      "bytes": 4962,
+      "sha256": "91648f9e8ba9cc99c6d19ec5afa57fdbaa48ff73ac7000893d64c273fec49197"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/LockScreen.qml": {
+      "bytes": 22267,
+      "sha256": "85eff0d588f6ab4ed3f7fa134106dfc54f4ebc507073e072b25a1c744b898b39"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/LockSurface.qml": {
+      "bytes": 715,
+      "sha256": "26a7b8b96570647afc2d327121e17c7e2f534827988d77d1bb67b5807fe534f6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/VideoLock.qml": {
+      "bytes": 1718,
+      "sha256": "2103a5ce8461fbceb11c9789593a80cec6727da7315b269820462cb36b3b783f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/qmldir": {
+      "bytes": 300,
+      "sha256": "3d820f8c27f0bac04f52b4859a4d3c498004eb26617a086b216a929ac8bccaab"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/LockElementRegistry.qml": {
+      "bytes": 9311,
+      "sha256": "2b31659c299dbe94eb876dc76859f33d108a308905a62d73e4d9d82c794c6309"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/LockLayoutStore.qml": {
+      "bytes": 17560,
+      "sha256": "6d84cd9df94a90ea24ea6f48e74df2563f8cd9cb7e10523f39747b2bd8da45e0"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/LockLayoutView.qml": {
+      "bytes": 5484,
+      "sha256": "1ccdc6039da5bb3cb32d5cddcb8c48ec78e166ac07bd86090f0671ada0e8e5b1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/LockPanelStage.qml": {
+      "bytes": 7808,
+      "sha256": "3698682c025b552ad3f5d1e8e6ee7eb01146b7aedad905893d1af93bcfa431c4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/LockRedactor.qml": {
+      "bytes": 36493,
+      "sha256": "b11ca6a723e39085b194f4605ecf312c918d33ac8540e540158f845b1d170954"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/LockScene.qml": {
+      "bytes": 33418,
+      "sha256": "15c1d110c70b9792d7eb1127ac93f92b801a3ac6b9be9bf818fdee7c86c7116e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/LockSettingsRepeater.qml": {
+      "bytes": 2862,
+      "sha256": "16a7988b404c04ab4733f0ebe2fb7f87797f12a91c81cb7fae4cebdeb270f1fe"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/LockStageFrame.qml": {
+      "bytes": 1821,
+      "sha256": "a9a8b4dd04a0b13b5d2e33c7ccf87ec93140440fd3da8b464c743e5341cddb8f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/LockToolbarItem.qml": {
+      "bytes": 1114,
+      "sha256": "ae7305babd1cde1d8538516f07fa210435829c65aaa8d51c86d8687ca960b0d3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/elements/LockAvatarElement.qml": {
+      "bytes": 1163,
+      "sha256": "e46bae2783208cf6e854445b2eab9ab913ad439279215b17224b50fe4ae0bd19"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/elements/LockBatteryElement.qml": {
+      "bytes": 1055,
+      "sha256": "79b2856417b038314d4dbd7b03c4216527e20fa61f331d3329b7a8e0a5965cda"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/elements/LockFingerprintElement.qml": {
+      "bytes": 832,
+      "sha256": "4b6f06140e030e28f9a6727dcfa24626b9c9246d72573ae1e6c6b3fcfe862909"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/elements/LockKeyboardElement.qml": {
+      "bytes": 870,
+      "sha256": "de890a5234b81155f840046edb4f07e452e8e0922caa5f2ec245d41531c3cb34"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/elements/LockLockStatusElement.qml": {
+      "bytes": 816,
+      "sha256": "d47b77a00f46681a4e2c96954c0ef58e6a5a23ccc83692c74d1f9358a9d39f38"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/elements/LockNotificationsElement.qml": {
+      "bytes": 852,
+      "sha256": "ea6a81c25b4bec80808aa6aff8407f5dfd32e2f6c61878649234628f4cbf656b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/elements/LockPasswordElement.qml": {
+      "bytes": 3349,
+      "sha256": "8255de8620f68801f167035099781b0e92b737003da2178cb632c7d5e1beeec0"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/elements/LockUserElement.qml": {
+      "bytes": 806,
+      "sha256": "2726faaed4dc5ee861e786fbc901876b1181e7e84bb9a6c028b31c417287d8d9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/elements/qmldir": {
+      "bytes": 390,
+      "sha256": "3de3cb7ee7453c7d9729e4a8329d06cb3ceeeeee9494a22e0f08ac60ef6a2a01"
+    },
+    "home/.local/share/serpantinum/src/quickshell/lock/redactor/qmldir": {
+      "bytes": 374,
+      "sha256": "a7d6a6948a654680122d29c1bd454d45a9cf9badffd9e1d854c5526120ed482e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/DISPLAY.md": {
+      "bytes": 9806,
+      "sha256": "d64d7b2f712ba605f81a2ce20c29cc08202c30eb2622c5f1f1ce788160db1f8b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/DisplaySlider.qml": {
+      "bytes": 5899,
+      "sha256": "ebe5e7067690caf76f51801a95b548d7d3c34fe71ea31d47a35b3dddab2c6551"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/DisplayView.qml": {
+      "bytes": 15307,
+      "sha256": "3a4fad2c34c6d5d24d71cff252400e3e91e09b3447f5e471f0d3d0f0af8e3597"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicAudioView.qml": {
+      "bytes": 16174,
+      "sha256": "d77bc15421409a9b1c7032c3e26c393de5fd9bc28a4a051745b40a9e5400aa76"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicBlurCrossfader.qml": {
+      "bytes": 2164,
+      "sha256": "994817a7246fbe000df9f4ff383134f1f738ad5c33f0fcfc5404426af521a825"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicBorder.qml": {
+      "bytes": 4381,
+      "sha256": "cb38c7b58fe5618db024fec9fab080785d9f7fdb878ad22071264f69f414816e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicBottomHeader.qml": {
+      "bytes": 7605,
+      "sha256": "a2c07938397c83ac0b7631ba95f272c9d9d4d786473fc2cb8bcbe6baa39320a6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicCover.qml": {
+      "bytes": 12680,
+      "sha256": "33cfbffe827d0c655cd638172c60c563826069f62648484a1989e678d4ee154a"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicEqView.qml": {
+      "bytes": 22759,
+      "sha256": "b19d1d7bfef9b4b7f8f32941cde282d47d33082167f9b04ab56e09480f9daeea"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicEqualizerState.qml": {
+      "bytes": 8146,
+      "sha256": "63c28f950c4436366892f26c10287bbc3e8e2398f7134d0796e8090834149ca2"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicLyricsView.qml": {
+      "bytes": 2038,
+      "sha256": "2cdaa9103e5633b64b3c463a08b6d41104512e643c28647f48d0461515021386"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicPlayerState.qml": {
+      "bytes": 8765,
+      "sha256": "134b009924bb83357fb016bd26b0e7b4db2152ca693c7edc00ab8577d42e4b5e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicPopup.qml": {
+      "bytes": 20125,
+      "sha256": "cd573de903500d2a8af2674bda76532cb13ca491c196e811a30d9846399f7e78"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicPresetButton.qml": {
+      "bytes": 804,
+      "sha256": "99884cec5e8be80920a99ea9d67c8e77fdeaaeaea57f82aee0bddcbdc60ac2c7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicSpeedControls.qml": {
+      "bytes": 5011,
+      "sha256": "f47f35798e80d77c0126d484d6f3f7ee5197cf2280392cdf4a816ccc59013f86"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/MusicTrackControls.qml": {
+      "bytes": 8913,
+      "sha256": "caa9ffe078459387869b9e48bbd2154e9b992185a50f1cdf9288858d3d04f272"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/art_fetch.sh": {
+      "bytes": 11635,
+      "sha256": "7795e274a1ba779dfd2034e02d05049b7f8a16c80a35a5ff857487c065417953"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/display_backend.py": {
+      "bytes": 24240,
+      "sha256": "b9e7ac7ba3bff54cb288d1697d31b88baf00ef032f5703eeebc1e7b3b953b1b3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/equalizer.sh": {
+      "bytes": 13128,
+      "sha256": "16c238f6766bf5ee4150595ad1611f8691f7868f613fb45ff06854087d030a9b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/qmldir": {
+      "bytes": 588,
+      "sha256": "abf77bf16c454919fac6fd34267e2e5dc9b84ed8a00948f37ff07892bd9252e7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/media/tests/test_display.py": {
+      "bytes": 12352,
+      "sha256": "dadb5e0c13a1af5a769ae5980da879a2629d5bce897192a79ad7b26510225c49"
+    },
+    "home/.local/share/serpantinum/src/quickshell/network/LoadingDots.qml": {
+      "bytes": 749,
+      "sha256": "6cde5af975d5cb1b21f7985e5c3619e101a8f8e709486996492a4e5a042ddfb9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/network/NetworkCardLayer.qml": {
+      "bytes": 23552,
+      "sha256": "a62b0ecd3856dcd4b4a82f4aa46fd24f5ff29dc67ce20abece584542d5449f30"
+    },
+    "home/.local/share/serpantinum/src/quickshell/network/NetworkControls.qml": {
+      "bytes": 10932,
+      "sha256": "ee59714c46bacb3e3a0265b15be82f3dae3d135d668680aeef59aa7a45d1bfe5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/network/NetworkCoreLayer.qml": {
+      "bytes": 30362,
+      "sha256": "5eacd395dd129fb5e6a87e5d6c36494de736f76dfbb2a2e52aaded7d670546e3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/network/NetworkPopup.qml": {
+      "bytes": 76849,
+      "sha256": "d1152c0e86d9e0df19da6ddfbc8c201bce32cb0541a329cb093fe9220d730372"
+    },
+    "home/.local/share/serpantinum/src/quickshell/network/bluetooth_panel_logic.sh": {
+      "bytes": 723,
+      "sha256": "2668c7b2ed14b534a3794565e833104c90125a3aa1e3632de4573bec255cb352"
+    },
+    "home/.local/share/serpantinum/src/quickshell/network/qmldir": {
+      "bytes": 190,
+      "sha256": "b82529ed6a5a753aeb9d870c4ba1a39b4594b8fc6d1d7e2daadb63086371af7e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/notifications/Notification.qml": {
+      "bytes": 39120,
+      "sha256": "9166cdebd7d01ebbc0fe8c5a081af317a8624e42fd615054dfbc989ff70ad471"
+    },
+    "home/.local/share/serpantinum/src/quickshell/notifications/NotificationCenter.qml": {
+      "bytes": 3528,
+      "sha256": "94bc48171df767bb2e97465034c92dfeb3a093bcdbc87ee5f831e03eb7d9f9f9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/notifications/NotificationManager.qml": {
+      "bytes": 15092,
+      "sha256": "c937bf21b062405af3cfa026d213a74bc06fd9877332c35f98407fee9cff128f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/notifications/NotificationPopups.qml": {
+      "bytes": 13368,
+      "sha256": "e45e58eee7c70ee7aa8053614bdb106ebe50f58ddcf41e8bf5dc122659786007"
+    },
+    "home/.local/share/serpantinum/src/quickshell/notifications/types/Default.qml": {
+      "bytes": 1810,
+      "sha256": "ca0375dff61442448bb6a7119dde4e393724b4c499963a4bff06b5481156e69d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/notifications/types/Screenshot.qml": {
+      "bytes": 4265,
+      "sha256": "b7cb6128602e47bd327684670323ae9c020f896122d84045d843958ddca187f0"
+    },
+    "home/.local/share/serpantinum/src/quickshell/notifications/types/Update.qml": {
+      "bytes": 1824,
+      "sha256": "8a5f15293b5a22c56fbb010203b6ea4462598ae67e79f884bc61b7c6acee236d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/notifications/types/Weather.qml": {
+      "bytes": 1119,
+      "sha256": "94e0a748769887241dde14e1f9676315c262c826170019510547bda05b3bbfad"
+    },
+    "home/.local/share/serpantinum/src/quickshell/polkit/Polkit.qml": {
+      "bytes": 9951,
+      "sha256": "6af34a49689567ae449ccdf9f05e0bc2b550d2668c4d66becfc866835b46d8ab"
+    },
+    "home/.local/share/serpantinum/src/quickshell/polkit/PolkitService.qml": {
+      "bytes": 1964,
+      "sha256": "19b4259b10592409cb3f90f0c9e31e865cda9999d1e79f23011259dc9f5b02d8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/popouts/DesktopMenu.qml": {
+      "bytes": 35667,
+      "sha256": "64699188a3cd5ef2bfaefa86c76ada8397af84a9bc192f8f979a7d83caa199f9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/popouts/DockAppMenu.qml": {
+      "bytes": 20083,
+      "sha256": "1995a2c2cbabc23d2f02a77160f508909abee3e8f13dd71aa358423524f05edd"
+    },
+    "home/.local/share/serpantinum/src/quickshell/popouts/Osd.qml": {
+      "bytes": 37660,
+      "sha256": "76bc11e9c2b1ca7f071c92756d350cff04a7f38dc4a57a311dd5a6c0c2617880"
+    },
+    "home/.local/share/serpantinum/src/quickshell/popouts/PopoutManager.qml": {
+      "bytes": 158,
+      "sha256": "e9539857f5b7a220e7d62ed634870154a76c572b1f61f612eef04802125576e5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/popouts/SideMusicPopout.qml": {
+      "bytes": 26011,
+      "sha256": "d5a13f136cd2355be2907ddba8ba55cd8a12e375e5aa79f03196ae63cde9a447"
+    },
+    "home/.local/share/serpantinum/src/quickshell/popouts/TrayBase.qml": {
+      "bytes": 42482,
+      "sha256": "873c15d7b1c94804528ade4b22c6899aca19bf652fca36118fbedf1fa84bd57a"
+    },
+    "home/.local/share/serpantinum/src/quickshell/qmldir": {
+      "bytes": 3276,
+      "sha256": "861082c75c4a6949a2b2723eb9f06dc8a1b712caf934e55aaa375bd598dcf8eb"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/Floating.qml": {
+      "bytes": 93930,
+      "sha256": "947487947d340c01584eb55c6b5a0ce09ab4ab058732454df4911d1ba442585b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/Calculator.qml": {
+      "bytes": 50962,
+      "sha256": "9917e21204f276e9b2e73a04603920235572812c8eb47f7b1ccbb7ba9b39579b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/CalculatorEngine.js": {
+      "bytes": 11274,
+      "sha256": "62088cc907e8f571282d523622c1ee9ffdcb1f1dc2fa054e4a5ea1a51a3b3ed9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/CalculatorKey.qml": {
+      "bytes": 1257,
+      "sha256": "68586fd218cf984ff68390b08aff2b8e9039ef87e8e4c838b43238f2ebb21a1c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/ConverterEngine.js": {
+      "bytes": 4217,
+      "sha256": "f45889dce15e755256570467cdd80a73d69020adec935c9a257ea507e4f16f18"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/Dock.qml": {
+      "bytes": 6340,
+      "sha256": "5683e139c2b35283e6ef6e95556ed60e3e487e1d780b700be19e93ae5ef97e3f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/DrawAction.qml": {
+      "bytes": 57013,
+      "sha256": "ef306d10eaed4964a25edef1840dadc3d7143413162fbcc88a74203e21a1e551"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/Notes.qml": {
+      "bytes": 47005,
+      "sha256": "e0b6468059b64339eb3d36c3634c9b6573623a954de1432f167b33275436f2d4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/NotesFormat.js": {
+      "bytes": 4051,
+      "sha256": "9a25ed9f71defe83d4cd040bd772ddf63eb566b0aa8a60e21e9bda0ef8a5bceb"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/SystemUsage.qml": {
+      "bytes": 12023,
+      "sha256": "41381aa4223da4853642f3297e252c7d3aaa0cd99b4232dd5df5e2c6401a48db"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/Timer.qml": {
+      "bytes": 39802,
+      "sha256": "185b7054d34562d3a7a46bc8dd6ba8826ecfbe9fd165edb2ccda78dbd9921c8f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/quickactions/actions/qmldir": {
+      "bytes": 186,
+      "sha256": "f66dbef29ae1f2a470ad8cc083b9565e17d09f97314737b68e3bf2d817e9dafc"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/behavior/Draggable.qml": {
+      "bytes": 17214,
+      "sha256": "c0837d60d1a17d6e360058b15b683a746eaf9bc9363216cea4ae0f1bdfe81ac5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/behavior/ScreenPositionSelector.qml": {
+      "bytes": 16131,
+      "sha256": "89c219b8d20aec4e2ec93190f25fe697ea079ff7480bedbfbff192b5544c4439"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/buttons/CanvasIconButton.qml": {
+      "bytes": 4200,
+      "sha256": "4c580d7ae38b73f1819603c93832ff5b67fcadedb004a874011ebdc534b96410"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/buttons/ClickButton.qml": {
+      "bytes": 8203,
+      "sha256": "ff3f9a6e7fe4167aacb2a430bd141b48f56867ee3b88e72131a2a4755dcacca3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/buttons/CloseButton.qml": {
+      "bytes": 221,
+      "sha256": "be1586446f5e230690c95190f98496a28ed26540a87ce4b520d8b6961ec0b3b6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/buttons/DeleteButton.qml": {
+      "bytes": 175,
+      "sha256": "55861a100d2a36245a2aa19b2ed2c40c9543ebadb26a78b403de1ba19c8f3a04"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/buttons/FillButton.qml": {
+      "bytes": 19920,
+      "sha256": "66c12e9fb9fb6bacf9e5134ff6f32a17c2eb85cf1a22ddebf15e6a3f5ae7cce9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/buttons/IconButton.qml": {
+      "bytes": 5067,
+      "sha256": "fefb6b56820bdc8b8f31d9a8d193e61edc24d61252e408e075bec8efddd4f2cb"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/FlipIcon.qml": {
+      "bytes": 5825,
+      "sha256": "73f86107052158fbc08849668f7d2198585006ffe68fea0a0f23dd4fbc423193"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/FluidWave.qml": {
+      "bytes": 523,
+      "sha256": "973d09f0a21ce6d0c173b486ac3e8070d8cb5b90c3fc3557b33ff6e691ea2461"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/GlassFill.qml": {
+      "bytes": 10798,
+      "sha256": "7c7ccbc3205b907ae86fd99ce03f0a635e1204c5653675db388ef65bf791087a"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/GlassFillets.qml": {
+      "bytes": 2528,
+      "sha256": "637918e6f2b1e553f2fccaa46d24977deae21d8bef05e4301cbe3fb2734c59a6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/GlassLens.qml": {
+      "bytes": 6432,
+      "sha256": "0fa4ff08d2a7a87a8e6df22605aa9a48f2bfe308609a36535e2b6d757ed2be01"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/ImageBox.qml": {
+      "bytes": 5102,
+      "sha256": "ec03aceef041f4401e57eb8030afdbcf71401dafe736a07356fe2c750a536c5f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/LiquidFill.qml": {
+      "bytes": 463,
+      "sha256": "074323be527966a39477efe8607df8a93aa4af5b5e33f5ac697ca0f6470d5c2d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/LiquidGlass.qml": {
+      "bytes": 2103,
+      "sha256": "44446b2801172e1e4c5f8490a383ca22b5069b679eabe55e0d1bb2e330c51d80"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/LoaderIcon.qml": {
+      "bytes": 2768,
+      "sha256": "61f2dd2e224d2a9708bf408ec766574017f4b918690ad556779b64bd14927415"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/MarqueeText.qml": {
+      "bytes": 4062,
+      "sha256": "53dfd4b94014b175d8b721f2fd35355825adcd0ab22a92d3a3792ec28d82f9d5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/MaterialDigitGrid.qml": {
+      "bytes": 4183,
+      "sha256": "c23a61d154c6b960e1bd01dd4495a0527b85ab2765e98abb33b2096fa3dcf8d1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/NotificationBox.qml": {
+      "bytes": 57003,
+      "sha256": "7121da15b49a7cf3eec05bd41213f0648efed904f92ad2bf4b759bc505175455"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/SystemUsageCard.qml": {
+      "bytes": 11101,
+      "sha256": "921e4849a9b1c77ec12e9a5c3496148bc450e7cc3da4716591a3a88ceb2ceab8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/SystemUsageCircle.qml": {
+      "bytes": 3525,
+      "sha256": "aef9278ec89212c352f661bd7f9173d2d75f3196a99cf4fb157d58b19bb02a72"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/WallpaperBlur.qml": {
+      "bytes": 16133,
+      "sha256": "b3406e8965d8b8db7004bb467c9d4b7c8666ec42318e6edb41ffcb41cc839a52"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/display/glassNesting.js": {
+      "bytes": 646,
+      "sha256": "386372d1ba6e7e3090191d53d869a5527a87c5a1a72fa9362a634b7f51ba348c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/guide/SettingsBlob.qml": {
+      "bytes": 932,
+      "sha256": "528f7203a96df84e0a2d906d7fb5385998c763ef1208b84952c5ad4a5dbd4497"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/guide/SettingsGroup.qml": {
+      "bytes": 4852,
+      "sha256": "50ebfe2a139d5b8b413241a68ec54bd44a9b7e6a22bb2f0216de949207d4e150"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/guide/SettingsRow.qml": {
+      "bytes": 22384,
+      "sha256": "ef4d0d8af99c918efaa1ca353d44c9271f16d681462313f209df9869e37fbef3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/Dropdown.qml": {
+      "bytes": 41243,
+      "sha256": "7142334a17480bcc6a9fe5e12f1cd5d90b320c324b206ef12eb5322a315615a9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/FilePicker.qml": {
+      "bytes": 32102,
+      "sha256": "ca4e348feab34fb7a3feb1ee8f9314df5ea6471fbd8671c999d72f8d01fc8b16"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/ImagePicker.qml": {
+      "bytes": 3513,
+      "sha256": "912fc8dd4e3c31b075107aa3a8fa8eaf3b13b5883398a88b7f4e7f07bdd96d1f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/ImagePickerVideo.qml": {
+      "bytes": 750,
+      "sha256": "99eb12447fad9b5a9e394df3dd1e0cc5953046a00bea603ce3a9f2679601e9ac"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/Input.qml": {
+      "bytes": 29525,
+      "sha256": "19f17f1ce1e68eb483e25320c748eacb3a71099b746969a73bbfcd2c66c3fd5a"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/LyricsPicker.qml": {
+      "bytes": 6370,
+      "sha256": "7b85c208b5b60b8487ddecf536c6101c08d6f36bfff65d03039cecfab8fc02b2"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/NumberSelector.qml": {
+      "bytes": 23991,
+      "sha256": "965aeebb78ac3bb83feb2909e90f84deab2a9816d0f6caa2e6b47f4305d0f89a"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/PasswordInput.qml": {
+      "bytes": 37860,
+      "sha256": "77f72426d7871d9558e5fe830ef8a2f919a1b0c9c58ae8f6c34a69d1efac0ea7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/SliderProgress.qml": {
+      "bytes": 6669,
+      "sha256": "0ce4d305abc11924b5cdcc79b12080455c82671cd31febae8161100de4f2586f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/Switch.qml": {
+      "bytes": 13226,
+      "sha256": "62bf4772b3a9573a3bf5b0de1db49df816b1f7fae00f78528f39c85398a60913"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/TimeSelector.qml": {
+      "bytes": 14886,
+      "sha256": "d3a3e35efd20808eb29b07cafae363c511a406688646d601aff03ad0ff48052d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/inputs/Toggle.qml": {
+      "bytes": 6745,
+      "sha256": "2fa03a45db33739612a3f60ea1d044823f23765924805a00f3f74ca6069f772b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/layout/AxisFlow.qml": {
+      "bytes": 277,
+      "sha256": "bac9c5c61d416725f696795a6b9028e861d0b7e56f7d390d81779158b6d76a50"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/layout/Reserved.qml": {
+      "bytes": 1228,
+      "sha256": "b08130dded0ddab1f7cba8cbf1fe0e0188f5dadb0f3a29c4dcd69a18ae9f7e7e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/media/LyricsView.qml": {
+      "bytes": 15348,
+      "sha256": "1cd6402f2bd49f2ecf558fb5ae955d6c12d68522450983658e048927123bd186"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/media/Visualizer.qml": {
+      "bytes": 8507,
+      "sha256": "fe4ce974374fc5679c00518e70be1eac29fd1188ec022be5189a9ac82de7f29d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/media/WavySeekBar.qml": {
+      "bytes": 5711,
+      "sha256": "7a0a2ea9af92ef1c6a72edada90c25aa65d0ef7c315c62913c29f09353efbdfc"
+    },
+    "home/.local/share/serpantinum/src/quickshell/reusables/qmldir": {
+      "bytes": 1677,
+      "sha256": "43124b4aaf495cd49eef3c0e29870180981f24422e3f756ab25ec5dc279ce6bc"
+    },
+    "home/.local/share/serpantinum/src/quickshell/screenshot/ScreenshotOverlay.qml": {
+      "bytes": 77123,
+      "sha256": "1f7d407cade10cdc90e3fd7106a53ebd8a562fd84edf9d3df393e50d9cf2b68c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/serp/Serpantinum.qml": {
+      "bytes": 11034,
+      "sha256": "cc3d981ea23a17ee798ea4348bd97bb4ce26084733c4e5ddb1f3082fb7398705"
+    },
+    "home/.local/share/serpantinum/src/quickshell/serp/Start.qml": {
+      "bytes": 25019,
+      "sha256": "d8fa7a2a767446e73adbf2fae1910a830dc5165865fea7e952150b195bbd479b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/audio/Audio.qml": {
+      "bytes": 7899,
+      "sha256": "0004f3ca19f48a58a48c9a50c3251c9c5ee7996cd8c601533f22f160356a258b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/audio/AudioCache.js": {
+      "bytes": 694,
+      "sha256": "d6b5812d3d2037683dc63a8f0ecccd7f6eae0c7de250b8ee64cd6459fde5846d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/audio/Cava.qml": {
+      "bytes": 3836,
+      "sha256": "ef07381f894bc08783b1f95c628e2a3aeb6a8aed6ddbca23bde667377f56e374"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/audio/Lyrics.qml": {
+      "bytes": 39295,
+      "sha256": "eb456dbf3eec243bbc08e9ea7ce7458f6e2795483384db5295931993b81a8f63"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/audio/LyricsMatch.js": {
+      "bytes": 6539,
+      "sha256": "2652c6bd2a4dbeeb432be77fd506156e1d3dbe8b72ef4b1878afbbe1212dd45b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/audio/MprisController.qml": {
+      "bytes": 8012,
+      "sha256": "a448af4533eab577d7f17291987ebde76e5fc467cbeee139106e3bc4fd848fac"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/audio/Sounds.qml": {
+      "bytes": 4711,
+      "sha256": "d874a35f8f468edc497c90a2aed6ff85b7d287274d2f0b9b495acbc7e8d063b1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/environment/BlueLight.qml": {
+      "bytes": 16675,
+      "sha256": "2775a7d0804d993c688ff9dcb82b03b2a76f346a1cbe6610566b08b8086338a5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/environment/DisplayService.qml": {
+      "bytes": 3309,
+      "sha256": "3d85ab30afb0f37c2cdefbdee807cc84f2123c2b09e96f7f3587930ba47640e3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/environment/Location.qml": {
+      "bytes": 4027,
+      "sha256": "872df34b6b6511936e958d03617013ad6180c6c9b7217b8a4088d004d802cfdf"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/environment/Weather.qml": {
+      "bytes": 8479,
+      "sha256": "1868273c5c40e9bcc25593211a3bfade66e55d0819ea145e12985d9bc2cfc5b5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/info/SysData.qml": {
+      "bytes": 4331,
+      "sha256": "c00d4c7832415d2ba676761ad1db39923fd6cee8f2a2c13c493b54869332762b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/info/SystemInfo.qml": {
+      "bytes": 10948,
+      "sha256": "5b9efbb26dda18415992f7117812b09b61f52c5a360a4bd57ba86b22cfa2b5d9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/AppMatcher.qml": {
+      "bytes": 3634,
+      "sha256": "0373d9f0adfe87aeae157916be89e5024abc39d50b08fa24ffe1a49033a44a61"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/AppMatcherInternal.js": {
+      "bytes": 717,
+      "sha256": "3aedacab5f7221de03d768d006a2bd5f91c372e55f648e6552b4fb8beacd79c2"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/Caching.qml": {
+      "bytes": 2997,
+      "sha256": "ae568de0407d184b28b1a37dc39ce614cd6b08cb3cdad86ed878ede60f1db13d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/Config.qml": {
+      "bytes": 6850,
+      "sha256": "039e523c0523f4ef48dc29386a370887c67dfb41586695ef9fbc07cdde92276d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/CurrentFocus.qml": {
+      "bytes": 1615,
+      "sha256": "239e784e5b8b537af9d3096dc770b6c2cede019c6047f744d1f8656f925c7c78"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/DateTime.qml": {
+      "bytes": 6493,
+      "sha256": "b8d10c83f810f1bc3da4e2793b024b335baba2a9adf979fd2114a97f44db2f20"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/FirstLaunch.qml": {
+      "bytes": 4109,
+      "sha256": "6da646a46981f9b5b33c62fbd048809d751ffb1573f39113b99162217ec93c62"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/I18n.qml": {
+      "bytes": 5922,
+      "sha256": "bcd63b144f590293dfd3fa490337f7d6d7fe08786c3f5de118e567e7358d0ace"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/MangoState.qml": {
+      "bytes": 5136,
+      "sha256": "510a41184a3061a5460c34fc03c667cce9c8fda62867008ea52cb7bf5f4ddcb2"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/NiriState.qml": {
+      "bytes": 9400,
+      "sha256": "7d476628dd224bd75f37fc0d9263c6f1028e69a9f7025d053336410fc100c811"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/SysNotif.qml": {
+      "bytes": 8210,
+      "sha256": "6ab4eb3301f74d7a905f85f413c3e576056ea49309e01cdf389a4936e4278bd2"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/TimerState.qml": {
+      "bytes": 145,
+      "sha256": "7935bdeb9691aee47c25ad86f358961c788eaa86b07117ebdbf56b34496fb628"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/Updater.qml": {
+      "bytes": 8283,
+      "sha256": "dcb0e445adfd01ee2458782da19502e2580201142cfe448a710ce474d9308313"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/system/WindowTracker.qml": {
+      "bytes": 23485,
+      "sha256": "e84943aa8766fdb69c61a92754099d498bbc41b9a0a24382977d2dc0da0b05d1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/theme/Matugen.qml": {
+      "bytes": 13209,
+      "sha256": "bf11fd519b93d3f50bed6d7164fe03ed11c5c4d8cfdf3698fbdeb641981822ca"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/theme/Scaler.qml": {
+      "bytes": 792,
+      "sha256": "0846c9a89cf5a6de85ef9de0c24e6d2213ca0dcdbd9f307d398a340f7e602436"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/theme/ThemeBackend.qml": {
+      "bytes": 14221,
+      "sha256": "bfe2c41219ca4356b7a2b9a73bc65ca4e46c05def720b8bce34f7a5fd10aa024"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/theme/Wallpaper.qml": {
+      "bytes": 3784,
+      "sha256": "8a52cf1965d57811e7664392a3656f1a0240866fa82ecae32229418ee71ce589"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/widgetcontrols/ClipboardController.qml": {
+      "bytes": 3164,
+      "sha256": "d40fa9c0910d56de8ea9e625fca8ce2d3156474f0851b2d8166c367157f3ed64"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/widgetcontrols/DesktopMenuController.qml": {
+      "bytes": 2324,
+      "sha256": "f40c3f57a4c4138a9d366edcee519efefbe8c1289bfbc13ed43d342dae11a618"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/widgetcontrols/DockAppMenuController.qml": {
+      "bytes": 2252,
+      "sha256": "463ad777d021e1a163c845e2d22aaef09bf5b4ea12015835d00ba28230a5ac35"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/widgetcontrols/FloatingController.qml": {
+      "bytes": 1365,
+      "sha256": "82f24cf90fd00f1e35018cb59f1945cecf189c3ba4382c0a60511093668f18b7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/widgetcontrols/LauncherController.qml": {
+      "bytes": 3164,
+      "sha256": "d40fa9c0910d56de8ea9e625fca8ce2d3156474f0851b2d8166c367157f3ed64"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/widgetcontrols/OsdController.qml": {
+      "bytes": 8381,
+      "sha256": "85c53cc853a70b4636cbd5590fda83227aae99d3a4153fd86b9c79b5b5309d2a"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/widgetcontrols/SideMusicController.qml": {
+      "bytes": 1982,
+      "sha256": "c33c9824839fb27aa15d707a07787ef886d699588522f76dc01ed211d36543a7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/widgetcontrols/TrayMenuController.qml": {
+      "bytes": 2193,
+      "sha256": "12fba3f3ae344fc5ceab0d2132329f4400d949ba6ef39f355225578b4eb6ac67"
+    },
+    "home/.local/share/serpantinum/src/quickshell/singletons/widgetcontrols/WidgetSync.qml": {
+      "bytes": 7721,
+      "sha256": "733ac583d629e55c389ce739a08f9ca8d869c21ddb31deb828eec2f6b2b8f44f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/syspanel/SystemPanel.qml": {
+      "bytes": 30568,
+      "sha256": "e5f7c81d64b011637385df4da1ab619df9fca21d3e33ecb30141181133fbef3e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/syspanel/SystemPanelPowerActions.qml": {
+      "bytes": 12652,
+      "sha256": "b5622dd5b8d05a3a99b73acacf1d1978ffb6c6fc5cc84937c69dcf7fd71711ff"
+    },
+    "home/.local/share/serpantinum/src/quickshell/syspanel/SystemPanelQuickActions.qml": {
+      "bytes": 14183,
+      "sha256": "0007084f4f78b81c9e36036f22646c90685e82d488ce1bb2a759966209b5c872"
+    },
+    "home/.local/share/serpantinum/src/quickshell/syspanel/SystemPanelSliders.qml": {
+      "bytes": 8719,
+      "sha256": "75c29188a26e3c6d07741bc60d5ccc92bc0b7894fa66d26a52e137ff9851b9c3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/syspanel/qmldir": {
+      "bytes": 190,
+      "sha256": "288ec226d33980ae2500069d802c59527c4badf0017e26d1a7d98b4d25a111e4"
+    },
+    "home/.local/share/serpantinum/src/quickshell/volume/VolumePopup.qml": {
+      "bytes": 37291,
+      "sha256": "28d827dd0fac5251f336db2f9a1bfae5ed6ad86f2c4f55113adbd6546b372801"
+    },
+    "home/.local/share/serpantinum/src/quickshell/wallpaper/WallpaperEngine.qml": {
+      "bytes": 33971,
+      "sha256": "bcc9dec16256586a32b6fc58cd961e242beb85b013b81c1c06f81149b673fc2c"
+    },
+    "home/.local/share/serpantinum/src/quickshell/wallpaper/WallpaperPicker.qml": {
+      "bytes": 101012,
+      "sha256": "9d3f76c34429c6f99029f25c34db630997bb85a24e06a0fbc19512d158f8da68"
+    },
+    "home/.local/share/serpantinum/src/quickshell/watchers/kb_locks.sh": {
+      "bytes": 8249,
+      "sha256": "fa324b071852527a75da19e4c7288deda3a1427d2ab3559ebde9e71877749df1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/watchers/kb_wait.sh": {
+      "bytes": 1015,
+      "sha256": "cd6e900aac085537b18ec8ee4e760b0e7d6b23f8f50af071911a01ef7f5f6d15"
+    },
+    "home/.local/share/serpantinum/src/quickshell/watchers/sys_fetcher.sh": {
+      "bytes": 7083,
+      "sha256": "37cdd570a198555675f509996f059fc01e3de58c6b601afc7179acf5d1bdc957"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/SelectionOutline.qml": {
+      "bytes": 1392,
+      "sha256": "de19b13df2a170724da19f6f135c0cce7801d6bb770c57cd7e392a81d26dc16d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/Widget.qml": {
+      "bytes": 8306,
+      "sha256": "aaa2d7cd0c8ec4f30fd5b1d211f2d8ce7930f542e1fafa62ac1d85d614be6c1a"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/WidgetLoader.qml": {
+      "bytes": 31183,
+      "sha256": "c4590334b1e99c6e79bc4cb043d6d98a787c2adec87434db5e361d4e972f074f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/WidgetRedactor.qml": {
+      "bytes": 144403,
+      "sha256": "243eb27f5ce826e105ffb26e19f762824be1e14a19256ad8a4fad69baf0fd018"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/WidgetRegistry.qml": {
+      "bytes": 46198,
+      "sha256": "ef41597e8789d917424b33d13651860afccadec9f8e799432060df2d6fc34606"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/battery/BatteryFace.qml": {
+      "bytes": 8637,
+      "sha256": "c429af1b9327e35f77a5ddfee7ec9142cd9226888eb03d4b5c117575d6fd80c8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/battery/BatteryFaceCircle.qml": {
+      "bytes": 2490,
+      "sha256": "11a046e62f80b36d44bf95f6f839d58a0c2fde430d290d88f3702c52ff5c077b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/clock/ClockFaceAnalog.qml": {
+      "bytes": 3160,
+      "sha256": "8e2660d2e752882dea2971a4a6fc7c688d60b893e149f20c4de44807d2a2d7d8"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/clock/ClockFaceDigital.qml": {
+      "bytes": 1196,
+      "sha256": "06abd41490e092e2d00419dd3a0ae055f690d001b434b78e352d00cb1e2d1270"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/clock/ClockFaceLockscreen.qml": {
+      "bytes": 4870,
+      "sha256": "cb0e9160c7d2b6af3dc2c8599cf6b328c545d6498c9bcbfd2723abfd0417adcc"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/clock/ClockFaceMaterial.qml": {
+      "bytes": 1310,
+      "sha256": "08eb250d348a21d2a79346fd557f8989dcda138949ad94b71a5216716002011f"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/clock/ClockFaceMaterialAnalog.qml": {
+      "bytes": 7746,
+      "sha256": "3a438391fcb8ba566afcbc7c7f4f6ef8982acc3dd09751e4ec43baef8fc75fbd"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/clock/ClockFaceMaterialLumen.qml": {
+      "bytes": 8219,
+      "sha256": "702017be5536df3d8af8db30ba232931e1ea90e23ef2a1f27ccf88b7c0f20570"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/clock/ClockFaceMinimal.qml": {
+      "bytes": 1104,
+      "sha256": "8fc24b44c011a85565f3e2700ac66dbe85d54dd4cf8b2ec02bccd4e54f67fa19"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/clock/ClockFaceStretched.qml": {
+      "bytes": 6048,
+      "sha256": "3bbc9fa8fde977c7a9a00898ac3fc1ceac89f09598821cb728c44081f17fa998"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/github/GithubFace.qml": {
+      "bytes": 39750,
+      "sha256": "0479366469b8e397584d5c8345e76dba4948eec8f67be01aa9c9819cf1a571b9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/image/ImageFaceRect.qml": {
+      "bytes": 1599,
+      "sha256": "7a824b780b9d0d1ab8b6b0ef372eb4858e52421eadda29a0e3aa2efc037ba371"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/image/ImageFaceRound.qml": {
+      "bytes": 3121,
+      "sha256": "efc2aab778b633084ef09cba9cef6af89e4c08316e5165676996191e4b79bb6a"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/image/ImageFaceRounded.qml": {
+      "bytes": 2872,
+      "sha256": "34201be287a79d2a4d4ab994a5a700a7f8de6547e91380e226298725174b12aa"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/music/MusicFace.qml": {
+      "bytes": 14805,
+      "sha256": "ed2688fe73ee441a9424492ecb834a23fb7231d0f987e66bb823d03255325970"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/music/MusicFaceLyrics.qml": {
+      "bytes": 13076,
+      "sha256": "6a9cb04f8920a2228e4de068f4a25abdb99fc5d21638b963fa6b24e3fed5484b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/music/MusicFaceLyricsSimple.qml": {
+      "bytes": 4895,
+      "sha256": "f9b6c806222c6016635dc5da9378c59bf0785f749af77a83754d1db8b4ae9cf1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/music/MusicFaceRound.qml": {
+      "bytes": 12378,
+      "sha256": "980e6ac88cdf6a7f6abe1e583654d03b345738eb3776d32f045e9d0a93fb4842"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/notes/NotesFace.qml": {
+      "bytes": 27493,
+      "sha256": "9198a18801f417844feb7832ed548f1e21e986ed87798a1ed3d69bb431ad34c7"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/qmldir": {
+      "bytes": 1042,
+      "sha256": "48c332e5712026f86b551171959c0f54023f504041925fa82539c86018c73375"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/usage/CpuFace.qml": {
+      "bytes": 1760,
+      "sha256": "9667485aecba836f9b04716773fa15c1f04d14d268f71169c9a79e062d4bfec6"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/usage/CpuFaceCircle.qml": {
+      "bytes": 1791,
+      "sha256": "8fdbb6fbc056a2b7b48d582da49f3f28588f8bf35c092dd1d5ad76f843b4c143"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/usage/DiskFace.qml": {
+      "bytes": 2027,
+      "sha256": "5c3c29e0993fb250aca57b14975a13a4dcc7325f9b59d3d9039b96159ec94311"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/usage/DiskFaceCircle.qml": {
+      "bytes": 1926,
+      "sha256": "8fcae4624b57976bb672040222ec6f651e3a94e8cb70bb688c0dba6c23dd2f8b"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/usage/RamFace.qml": {
+      "bytes": 1995,
+      "sha256": "3e09537edb18fb6aaea79415a9e77ec7d3db398185c0f79519b72fb2d750e086"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/usage/RamFaceCircle.qml": {
+      "bytes": 2026,
+      "sha256": "b6c20d9338933a9841ab066878e0a190426a603c6f89ad15a93ede1bbad03c0d"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/usage/TempFace.qml": {
+      "bytes": 1760,
+      "sha256": "38437e01353ed851ec3140eb957485daa7c6ebf52df46860cd25ae81104a17f5"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/usage/TempFaceCircle.qml": {
+      "bytes": 1791,
+      "sha256": "09825774355cdc85f20d32de4f6b17f85cc4854452ec3c3a80ae999b4b932a65"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/user/UserFace.qml": {
+      "bytes": 14455,
+      "sha256": "6be64646a8614d4c6226a7c52f2a38e2792410643668d143e573994a708122c3"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/visualizer/VisualizerFace.qml": {
+      "bytes": 1511,
+      "sha256": "318c3dab334a6a0c4fbdc2c3b02a56a6458ba2386a0f3bfb50d3fd08c806d83e"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/visualizer/VisualizerFaceContinuous.qml": {
+      "bytes": 1214,
+      "sha256": "4d2bcea62d358260744fbd37446f8e1a1221edc6b95e44533a74d16680374ca1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/weather/WeatherFaceCompact.qml": {
+      "bytes": 3365,
+      "sha256": "9138721cfe7ae540c25afb26a1f1f2997d9c3fe4228365da0d61b367e1d804d9"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/weather/WeatherFaceFull.qml": {
+      "bytes": 11709,
+      "sha256": "cb7b24dbfe8c9810b934efeb2a6fb589c5b50ea0263cfb3de5dcd14fa69bac03"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/faces/weather/WeatherFaceRound.qml": {
+      "bytes": 5028,
+      "sha256": "cfcada8e6de99e2e026cf43ed940abd7e1ab65e0b92bfa719ef5608cfbeb26f1"
+    },
+    "home/.local/share/serpantinum/src/quickshell/widgets/qmldir": {
+      "bytes": 112,
+      "sha256": "ffc74bbf307bd61af491bc2c1a8307f94558d9effa744cd5c050abfc425d6025"
+    },
+    "home/.local/share/serpantinum/src/scripts/blue_light_filter.sh": {
+      "bytes": 13693,
+      "sha256": "c12572ec6bb992b0f13978a011f53523826701f92a264500755ca1d9a4db6fa1"
+    },
+    "home/.local/share/serpantinum/src/scripts/brightness.sh": {
+      "bytes": 5603,
+      "sha256": "c9a26d7df79239dd54170de5e9e1e97572fc5f209308da7f9461f1605e8ff6b1"
+    },
+    "home/.local/share/serpantinum/src/scripts/caching.sh": {
+      "bytes": 2092,
+      "sha256": "9f79fa57bf2bfef38e0a4247c02d2664594e11c9de9c5fbeb1bdfe3742dc6884"
+    },
+    "home/.local/share/serpantinum/src/scripts/config.sh": {
+      "bytes": 1610,
+      "sha256": "07a3dff1e9d6c53d733d696e8e16e950ea5b99378c8878708839963bd6e7e614"
+    },
+    "home/.local/share/serpantinum/src/scripts/current_focus.sh": {
+      "bytes": 14231,
+      "sha256": "b9314fcf7f66e2a558ed2615177e8b04481b6a41ddda96e208914aaa14d34ba2"
+    },
+    "home/.local/share/serpantinum/src/scripts/first_launch.sh": {
+      "bytes": 1803,
+      "sha256": "eb4982da0706693a04261211071eda4093275fa0bcc1692e7895bdbca5e57377"
+    },
+    "home/.local/share/serpantinum/src/scripts/i18n.sh": {
+      "bytes": 2957,
+      "sha256": "198190d6a9a0c006a4f4fe856c527828c233b0006c22ee3d7daf322acdc3dbc1"
+    },
+    "home/.local/share/serpantinum/src/scripts/location.sh": {
+      "bytes": 6283,
+      "sha256": "a5a30451b54fcfbe509c4e2d03662d2a49d3f76c979d15d522c410eafd8b10bf"
+    },
+    "home/.local/share/serpantinum/src/scripts/location_manual.sh": {
+      "bytes": 1500,
+      "sha256": "004c49ebdc0cd3f70f0a93bbe31d0db4e251011d599b0b5fc7f4a1426a2d347d"
+    },
+    "home/.local/share/serpantinum/src/scripts/lock.sh": {
+      "bytes": 284,
+      "sha256": "9c10c610ee20b406f41a4603ac94d8884422911fa287b8f2b1bce5d3a64e158a"
+    },
+    "home/.local/share/serpantinum/src/scripts/monitors_detect.sh": {
+      "bytes": 5155,
+      "sha256": "584b4ef740c32f27823affe3b1482ed9561b3e145a89b83acd2a137ef7bdeba6"
+    },
+    "home/.local/share/serpantinum/src/scripts/ocr_langs.sh": {
+      "bytes": 3182,
+      "sha256": "849e94ae579ffb7bd52f50319960eefee42048136fbddd45bcec0fd253c0e951"
+    },
+    "home/.local/share/serpantinum/src/scripts/qs_manager.sh": {
+      "bytes": 8107,
+      "sha256": "81bc66b0a2c86ab07a9ae4c60a59180a623d030ebc4ac3337c09f8cb2b72335a"
+    },
+    "home/.local/share/serpantinum/src/scripts/redactor.sh": {
+      "bytes": 453,
+      "sha256": "1a3bedcd70b5c1a74eafab3913b26f985d5928b777e0fc2c5f94afc4c46564ef"
+    },
+    "home/.local/share/serpantinum/src/scripts/reload.sh": {
+      "bytes": 138,
+      "sha256": "7452bc272a218c3a33b8be215121266dcb8aa4f6e37c5cfbc9887d5a455aadef"
+    },
+    "home/.local/share/serpantinum/src/scripts/screenshot.sh": {
+      "bytes": 26733,
+      "sha256": "eb27f7aa08b085a7e9183653e67d1eedff962453ef001aa07580e1f35888902b"
+    },
+    "home/.local/share/serpantinum/src/scripts/settings.sh": {
+      "bytes": 3155,
+      "sha256": "ce2e222054b074cb35d93c04cb1497f95a94ec6bd78f09144dbd3352479c79bd"
+    },
+    "home/.local/share/serpantinum/src/scripts/system/can_hibernate.sh": {
+      "bytes": 1033,
+      "sha256": "ff081be97bdefd2b80dfe0fd822b1a2f3d522b69f5674338fc8ba5a4e18e7663"
+    },
+    "home/.local/share/serpantinum/src/scripts/system/exit.sh": {
+      "bytes": 1522,
+      "sha256": "5b62a8dcffb0d61f31a1cbc6f30b902f7c1c59fac51ea559fddef558f7322d80"
+    },
+    "home/.local/share/serpantinum/src/scripts/system/fingerprint_available.sh": {
+      "bytes": 1018,
+      "sha256": "c85ef043255ceeee826f9397a51a9cfd5dcf5671ad1d49a240101bb0880bdb52"
+    },
+    "home/.local/share/serpantinum/src/scripts/system/hibernate.sh": {
+      "bytes": 549,
+      "sha256": "654af29ed548c461b2589fdd30e2849538f3061c1331aa788f01ea5e3fe68798"
+    },
+    "home/.local/share/serpantinum/src/scripts/system/pam_without_fingerprint.sh": {
+      "bytes": 724,
+      "sha256": "a8869250203f9e1db296a08fd677db277e0e53d1c70c810d7bf69d5b7dce8f6d"
+    },
+    "home/.local/share/serpantinum/src/scripts/system/poweroff.sh": {
+      "bytes": 709,
+      "sha256": "7e68f4bc83541f056a944f4c4129d060f22eee57e4db83aad55fa691e726ad8f"
+    },
+    "home/.local/share/serpantinum/src/scripts/system/reboot.sh": {
+      "bytes": 694,
+      "sha256": "5cd5e5c265788eb50c8d0b0e75dd7db87c5f740090baaf17dafce2e6fc559667"
+    },
+    "home/.local/share/serpantinum/src/scripts/system/suspend.sh": {
+      "bytes": 729,
+      "sha256": "bf16619a6b6e57e4fb397268a628e862531b1807855e013a5adbd56d70dc85df"
+    },
+    "home/.local/share/serpantinum/src/scripts/updater.py": {
+      "bytes": 2995,
+      "sha256": "9c415e5ff3132ff806e93949498b6f59089a8a6bf85b89f3951dcfad163c482b"
+    },
+    "home/.local/share/serpantinum/src/scripts/volume.sh": {
+      "bytes": 592,
+      "sha256": "dd4364867d0346fa44f39f8a39d2a8dc8e33cd87e7fe911fff85baaf3ae6dac6"
+    },
+    "home/.local/share/serpantinum/src/scripts/wallpaper/ddg_search.sh": {
+      "bytes": 2587,
+      "sha256": "27a38aa15affb90c9ec659dd9e127c4a17514536c3f273f286acd3e03d878425"
+    },
+    "home/.local/share/serpantinum/src/scripts/wallpaper/get_ddg_links.py": {
+      "bytes": 3756,
+      "sha256": "3857b4eb415a237e8639bc71004170884c49e4f96924c0c5bb7f5cecfd032343"
+    },
+    "home/.local/share/serpantinum/src/scripts/wallpaper/indexer.py": {
+      "bytes": 10021,
+      "sha256": "50fa332e7e6ca365d426aedd744f26f5ba0c6491ba04f7896b4f0f49855f6538"
+    },
+    "home/.local/share/serpantinum/src/scripts/wallpaper/matugen_reload.sh": {
+      "bytes": 165,
+      "sha256": "b3ee7f3edb07efb1eeab43586efca846bd1319aa7a6612dad1d9db3b7dadb0fd"
+    },
+    "home/.local/share/serpantinum/src/scripts/wallpaper/search_control.sh": {
+      "bytes": 371,
+      "sha256": "e33763d264b74c8923da3703cce707ece0abd82e262a86f6aa5c6a0c282ae810"
+    },
+    "home/.local/share/serpantinum/src/scripts/wallpaper/trigger_search.sh": {
+      "bytes": 841,
+      "sha256": "7024ee93068d46f73c8ed986bdbd5c8ece60392de7d1910d4165b6dfd73927f0"
+    },
+    "home/.local/share/serpantinum/src/scripts/weather.sh": {
+      "bytes": 17082,
+      "sha256": "ded2c766055b3b2c587707f265061e0aaf4df4228a4467b7cecdd55ce5e70c05"
+    },
+    "home/.local/share/serpantinum/src/version.txt": {
+      "bytes": 6,
+      "sha256": "a42caf4a54bbbe27aa45b6efbc6356c5e299b19763e728b6cdb7201b02ebbe36"
+    },
+    "home/.local/state/serpantinum/qs_colors.json": {
+      "bytes": 512,
+      "sha256": "c6eac66ed3f75024efc7f2a46506de2241a78f93fc99f8ac18f1688902b1ff5d"
+    },
+    "home/.local/state/serpantinum/qs_matugen_colors.json": {
+      "bytes": 512,
+      "sha256": "c6eac66ed3f75024efc7f2a46506de2241a78f93fc99f8ac18f1688902b1ff5d"
+    }
+  }
+}
